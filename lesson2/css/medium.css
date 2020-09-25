@@ -2,19 +2,22 @@
     .gridContainer {
 
         grid-template-columns: 1fr 1fr;
-        
+
 
     }
-    .proximity{
-        grid-column:1/1;
-        text-align:center;
+
+    .proximity {
+        grid-column: 1/1;
+        text-align: center;
     }
-    .whiteSpace{
-        grid-column:2/2;
-        text-align:center;
+
+    .whiteSpace {
+        grid-column: 2/2;
+        text-align: center;
     }
-    .portal{
-        float:right;
+
+    .portal {
+        float: right;
         font-size: 15px;
     }
 }

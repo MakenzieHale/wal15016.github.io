@@ -3,9 +3,9 @@
     grid-template-columns: 1fr;
     grid-gap: 2em;
     padding: 10px;
-    margin:10px;
+    margin: 10px;
     justify-content: center;
-   
+
 }
 
 header,
@@ -13,31 +13,33 @@ header,
     max-width: 100%;
     background: rgb(231, 204, 245);
     padding: 20px;
-    margin:15px;
+    margin: 15px;
     text-align: center;
     color: white;
-    border-bottom:5px solid white;
+    border-bottom: 5px solid white;
 }
+
 h1 {
-    font-family:'Architects Daughter', cursive;
+    font-family: 'Architects Daughter', cursive;
     font-size: 50px;
     border-bottom: 5px solid white;
 }
-h2{
+
+h2 {
     font-family: 'Shadows Into Light', cursive;
-    font-size:40px;
+    font-size: 40px;
 }
 
 h3 {
     background-color: lavenderblush;
     color: rgb(243, 84, 230);
     font-family: 'Barlow Condensed', sans-serif;
-    font-size:30px;
+    font-size: 30px;
     padding: 20px;
-    text-align:center;
+    text-align: center;
 }
 
-#lastModified{
+#lastModified {
     text-align: right;
 
 }
@@ -45,11 +47,11 @@ h3 {
 .proximity,
 .whiteSpace,
 .contrast {
-    padding:15px;
+    padding: 15px;
     grid-column: 1/1;
     text-align: center;
     justify-content: center;
-    border:3px solid plum;
+    border: 3px solid plum;
 }
 
 img {
@@ -60,16 +62,20 @@ a {
     text-decoration: none;
     font-size: 2em;
 }
-  div{
-      
-    color:white;
+
+div {
+
+    color: white;
 }
-.bIdaho, .portal{
-    font-size:18px;
-    color:white;
+
+.bIdaho,
+.portal {
+    font-size: 18px;
+    color: white;
     font-family: 'Quicksand', sans-serif;
 }
-.portal{
+
+.portal {
     text-align: center;
     font-size: 15px;
 }
@@ -78,7 +84,8 @@ a:hover {
     color: paleturquoise;
 }
 
-p,div{
+p,
+div {
     font-family: 'Quicksand', sans-serif;
     line-height: 1.5rem;
 }

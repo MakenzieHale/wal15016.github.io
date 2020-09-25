@@ -1,21 +1,25 @@
-@media only screen and (min-width:70em){
-    .gridContainer{
-       
+@media only screen and (min-width:70em) {
+    .gridContainer {
+
         grid-template-columns: 1fr 1fr 1fr;
     }
-    .proximity{
-        grid-column:1/1;
-        text-align:center;
+
+    .proximity {
+        grid-column: 1/1;
+        text-align: center;
     }
-    .whiteSpace{
-        grid-column:2/2;
-        text-align:center;
+
+    .whiteSpace {
+        grid-column: 2/2;
+        text-align: center;
     }
-    .contrast{
-        grid-column:3/3;
-        text-align:center
+
+    .contrast {
+        grid-column: 3/3;
+        text-align: center
     }
-    .portal{
+
+    .portal {
         float: right;
         font-size: 15px;
     }
