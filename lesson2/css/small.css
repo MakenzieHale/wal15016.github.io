@@ -37,7 +37,7 @@ h3 {
     text-align:center;
 }
 
-#lastModified
+#lastModified{
     text-align: right;
 
 }
@@ -49,6 +49,7 @@ h3 {
     grid-column: 1/1;
     text-align: center;
     justify-content: center;
+    border:3px solid plum;
 }
 
 img {
@@ -59,12 +60,25 @@ a {
     text-decoration: none;
     font-size: 2em;
 }
+  div{
+      
+    color:white;
+}
+.bIdaho, .portal{
+    font-size:18px;
+    color:white;
+    font-family: 'Quicksand', sans-serif;
+}
+.portal{
+    float:right;
+    font-size: 15px;
+}
 
 a:hover {
     color: paleturquoise;
 }
 
-p {
+p,div{
     font-family: 'Quicksand', sans-serif;
-    line-height: 3rem;
+    line-height: 1.5rem;
 }
