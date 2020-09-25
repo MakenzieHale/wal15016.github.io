@@ -15,4 +15,8 @@
         grid-column:3/3;
         text-align:center
     }
+    .portal{
+        float: right;
+        font-size: 15px;
+    }
 }
