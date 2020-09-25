@@ -1,0 +1,16 @@
+@media only screen and (min-width:32em) {
+    .gridContainer {
+
+        grid-template-columns: 1fr 1fr;
+        
+
+    }
+    .proximity{
+        grid-column:1/1;
+        text-align:center;
+    }
+    .whiteSpace{
+        grid-column:2/2;
+        text-align:center;
+    }
+}

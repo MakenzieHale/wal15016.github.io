@@ -1,0 +1,71 @@
+
+
+
+body {
+    max-height: 1em;
+}
+
+header,
+footer {
+    max-width: 50%;
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+.copyright,
+h1 {
+    padding: 10px;
+    border: 2px solid #ddbea9;
+    background-color: #ddbea9;
+    border-radius: 12px;
+
+}
+
+
+.copyright {
+   
+    padding: 20px;
+}
+
+h2,
+ul,
+li,
+p,
+span {
+    font-family: 'Ranchers', cursive;
+}
+
+@media only screen and (max-width:32em){
+h1 {
+    font-family: fantasy;
+}
+
+img {
+
+    max-width: 20%;
+    max-height: 30%;
+    border: 1px solid #a5a58d;
+    padding: 1px;
+    box-shadow: 5px 5px 5px #a5a58d;
+}
+
+
+.assignmentTitle {
+    border-bottom: 5px solid #a5a58d;
+    max-width: 40%;
+
+}
+
+.lessons {
+    
+    line-height: 1.5em;
+
+}
+
+a:hover {
+    color: white;
+    background-color: #ff0b91;
+}
+}

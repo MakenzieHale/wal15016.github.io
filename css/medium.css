@@ -1,0 +1,19 @@
+@media only screen and (min-width:32.5em) {
+  h1{
+      font-size: 1.5rem;
+  } 
+  h2{
+      font: size 1.5rem; ;
+  } 
+  .copyright, h1{
+    border-radius: 12px;
+  }
+  img {
+    float:right;
+    max-width: 20%;
+    max-height: 30%;
+    border: 1px solid #a5a58d;
+    padding: 1px;
+    box-shadow: 5px 5px 5px #a5a58d;
+}
+}

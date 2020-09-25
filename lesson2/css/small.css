@@ -1,0 +1,70 @@
+.gridContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2em;
+    padding: 10px;
+    margin:10px;
+    justify-content: center;
+   
+}
+
+header,
+.copyright {
+    max-width: 100%;
+    background: rgb(231, 204, 245);
+    padding: 20px;
+    margin:15px;
+    text-align: center;
+    color: white;
+    border-bottom:5px solid white;
+}
+h1 {
+    font-family:'Architects Daughter', cursive;
+    font-size: 50px;
+    border-bottom: 5px solid white;
+}
+h2{
+    font-family: 'Shadows Into Light', cursive;
+    font-size:40px;
+}
+
+h3 {
+    background-color: lavenderblush;
+    color: rgb(243, 84, 230);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size:30px;
+    padding: 20px;
+    text-align:center;
+}
+
+#lastModified
+    text-align: right;
+
+}
+
+.proximity,
+.whiteSpace,
+.contrast {
+    padding:15px;
+    grid-column: 1/1;
+    text-align: center;
+    justify-content: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    font-size: 2em;
+}
+
+a:hover {
+    color: paleturquoise;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    line-height: 3rem;
+}
