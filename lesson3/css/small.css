@@ -1,4 +1,4 @@
-header, .navBar, .container, footer {
+header, .navBar, .purposeContainer, .container, footer {
     max-width: 800px;
     margin: 0 auto;
 }
@@ -13,7 +13,8 @@ footer {
    align-items: center;
    justify-content: center;
    text-align: center;
-   padding:15px;
+   padding:20px;
+   margin:15px;
 }
 .navBar{
     background-color: #cbc0d3;
@@ -47,7 +48,7 @@ img{
     margin:auto;
     float:right;
 }
-.container{
+.container .purposeContainer{
     display:grid;
     grid-template-columns: 1fr;
     grid-gap:2em;

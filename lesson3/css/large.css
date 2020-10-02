@@ -1,10 +1,13 @@
 @media only screen and (min-width: 70em){
-    .container{
+    .container, .purposeContainer{
     
         grid-template-rows: 1fr 1fr 1fr;
         justify-content: center;
         justify-items: center;
         align-content: center;
+    }
+    img{
+        max-width:30%;
     }
     
 }

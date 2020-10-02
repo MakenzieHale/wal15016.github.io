@@ -6,7 +6,7 @@
     .navBar ul li {
         flex: 1 1 100%
     }
-    .container{
+    .container .purposeContainer{
        
         grid-template-rows: 1fr 1fr;
       
