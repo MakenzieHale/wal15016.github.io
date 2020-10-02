@@ -1,4 +1,8 @@
-header, .navBar, .purposeContainer, .container, footer {
+header,
+.navBar,
+.purposeContainer,
+.container,
+footer {
     max-width: 800px;
     margin: 0 auto;
 }
@@ -6,141 +10,173 @@ header, .navBar, .purposeContainer, .container, footer {
 header,
 footer {
     background: #fadde1;
-    color:#ff5d8f;
+    color: #ff5d8f;
     max-width: 100%;
-   display:flex;
-   flex-flow:column;
-   align-items: center;
-   justify-content: center;
-   text-align: center;
-   padding:20px;
-   margin:15px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    margin: 15px;
 }
-.navBar{
+
+.navBar {
     background-color: #cbc0d3;
     text-align: center;
 
 }
+
 .navBar ul {
     list-style-type: none;
     overflow: hidden;
 }
 
-.navBar, ul, li , a{
+.navBar,
+ul,
+li,
+a {
     display: block;
     text-align: center;
-    padding:.5rem;
+    padding: .5rem;
 }
-li{
-    display:inline;
+
+li {
+    display: inline;
     text-align: center;
 }
-a{
+
+a {
     text-decoration: none;
-    color:white;
-}
-a:hover{
-    color:black;
+    color: white;
 }
 
-img{
-   max-width:100%;
-    margin:auto;
-    float:right;
+a:hover {
+    color: black;
 }
-.container .purposeContainer{
-    display:grid;
+
+img {
+    max-width: 100%;
+    margin: auto;
+    float: right;
+}
+
+.container .purposeContainer {
+    display: grid;
     grid-template-columns: 1fr;
-    grid-gap:2em;
-    padding:10px;
-    margin:10px;
-    
-}
-/*site purpose css */
-.purpose{
-    background-color:#cbc0d3;
-   
-}
-.domain{
-    background-color: powderblue;
-   
-}
-.purpose, .domain{
-    border:3px solid #ffffff
-   
-}
-section{
-    color:#6c757d;
-    
-    margin:auto;
+    grid-gap: 2em;
+    padding: 10px;
+    margin: 10px;
 
 }
-p{
+
+/*site purpose css */
+.purpose {
+    background-color: #cbc0d3;
+
+}
+
+.domain {
+    background-color: powderblue;
+
+}
+
+.purpose,
+.domain {
+    border: 3px solid #ffffff
+}
+
+section {
+    color: #6c757d;
+
+    margin: auto;
+
+}
+
+p {
     font-size: 20px;
     font-family: 'Piazzolla', serif;
 }
-h2{
+
+h2 {
     border-bottom: 4px solid white;
 }
-.siteName{
-    color:#f72585;
-    font-size:30px;
+
+.siteName {
+    color: #f72585;
+    font-size: 30px;
 }
 
 /* target audience css*/
-.audience{
+.audience {
     background-color: #ffe5d9;
 }
-.personas{
+
+.personas {
     background-color: #d8e2dc;
 }
-.scenarios{
-    background-color:#efe5dc;
+
+.scenarios {
+    background-color: #efe5dc;
 }
+
 /* color scheme css */
 .colors {
     width: 100%;
     min-width: 350px;
     margin: auto;
     text-align: center;
-    }
-    .colors th {
-        background-color: #999;
-      }
-      .colors td{
-        width: 25%;
-        height: 3em;
-      }
-      .primary{
-          background-color: #f0efeb;
-      }
-      .secondary{
-          background-color: #ddbea9;
-      }
-      .accent1{
-          background-color: #b7b7a4;
-      }
-      .accent2{
-          background-color: ##eddcd2;
-      }
-      h3{
-          text-align: center;
-      }
-      .h-example{
-        font-family: 'Cinzel', serif;
-      }
-      .subh-example{
-        font-family: 'Pathway Gothic One', sans-serif;
-      }
-      .p-example{
-        font-family: 'Montserrat', sans-serif;
-      }
-      .heading{
-          background-color: #fdc5f5;
-      }
-      .subHeading{
-          background-color: #fde2e4;
-      }
-      .paragraph{
-          background-color: #c5dedd;
-      }
+}
+
+.colors th {
+    background-color: #999;
+}
+
+.colors td {
+    width: 25%;
+    height: 3em;
+}
+
+.primary {
+    background-color: #f0efeb;
+}
+
+.secondary {
+    background-color: #ddbea9;
+}
+
+.accent1 {
+    background-color: #b7b7a4;
+}
+
+.accent2 {
+    background-color: #eddcd2;
+}
+
+h3 {
+    text-align: center;
+}
+
+.h-example {
+    font-family: 'Cinzel', serif;
+}
+
+.subh-example {
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.p-example {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.heading {
+    background-color: #fdc5f5;
+}
+
+.subHeading {
+    background-color: #fde2e4;
+}
+
+.paragraph {
+    background-color: #c5dedd;
+}
