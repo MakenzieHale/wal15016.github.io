@@ -1,14 +1,18 @@
-@media only screen and (min-width: 38em){
-    .navBar ul{
-        display:flex;
-        max-width:100%;
+@media only screen and (min-width: 38em) {
+    .navBar ul {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
     }
+
     .navBar ul li {
         flex: 1 1 100%
     }
-    .container .purposeContainer{
-       
+
+    .container .purposeContainer {
+
         grid-template-rows: 1fr 1fr;
-      
+
     }
 }
