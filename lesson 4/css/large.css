@@ -2,13 +2,16 @@
   header{
       padding:px;
   }
-    nav ul{
-      display:flex;
-    flex-direction: row;
-    align-content:flex-end;
-  }
+    nav{
+        display:flex;
+        flex-direction: row;
+        align-content: space-between;
+    }
     nav ul li a{
         padding:.6rem 1rem;
        
+    }
+    button{
+        display: none;
     }
 }
