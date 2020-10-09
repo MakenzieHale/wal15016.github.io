@@ -15,8 +15,7 @@ body {
     background-color: #f0efeb;
     padding: 0;
     margin: 0;
-    justify-content: center;
-    align-content: center;
+   
 
 }
 
@@ -42,7 +41,7 @@ header img {
 
 .headings h1 {
     font-size: 1.2em;
-    margin: 0 0 0 -30px;
+    margin: 0 0 0 30px;
     color: white;
     font-family: 'Cinzel', serif;
 }
@@ -57,8 +56,9 @@ header img {
 }
 
 
-nav button {
-    margin: .2rem 2%;
+ button {
+    margin: auto;
+    margin-right:40px;
     background-color: transparent;
     border: none;
     font-size: 1.6rem;
@@ -66,19 +66,19 @@ nav button {
 }
 
 nav {
-    display:flex;
-    flex-direction: row;
-    align-content: space-between;
+   
     background-color: #f0efeb;
     font-family: Verdana, sans-serif;
 }
 
 nav ul {
+
     list-style-type: none;
     padding: 0;
     margin: 0;
 
 }
+
 
 nav ul li a {
     display: block;
