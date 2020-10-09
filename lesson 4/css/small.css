@@ -15,7 +15,7 @@ body {
     background-color: #f0efeb;
     padding: 0;
     margin: 0;
-   
+
 
 }
 
@@ -38,26 +38,28 @@ header img {
 .headings h1 {
     font-size: 1rem;
     margin: 0 auto;
-    color:black;
+    color: black;
     font-family: 'Cinzel', serif;
 }
-h2, h3{
-    font-family:'Pathway Gothic One', sans-serif;
+
+h2,
+h3 {
+    font-family: 'Pathway Gothic One', sans-serif;
 }
 
 .motto {
     font-style: italic;
     letter-spacing: 1pt;
     color: black;
-    margin-right: 0 auto;
+    margin-right: auto;
     font-size: .8rem;
     text-align: center;
 }
 
 
- button {
+button {
     margin: auto;
-    margin-right:40px;
+    margin-right: 40px;
     background-color: transparent;
     border: none;
     font-size: 1.6rem;
@@ -65,7 +67,7 @@ h2, h3{
 }
 
 nav {
-   
+
     background-color: #f0efeb;
     font-family: Verdana, sans-serif;
 }
@@ -101,14 +103,16 @@ nav ul.hide {
 }
 
 .content {
-    display: grid;
-    grid-template-columns: 1fr;
+    
     padding: 25px;
 }
 
-.preston, .weatherSum {
+
+.weatherSum,
+.article,
+.contact{
     border: 3px dashed #b7b7a4;
-    padding:10px;
+    padding: 10px;
 }
 
 .three {
@@ -122,15 +126,20 @@ nav ul.hide {
     text-align: center;
 }
 
-.articlePic {
-    max-width: 100%;
-}
+
 
 footer {
-    display:flex;
+    display: flex;
     justify-content: space-around;
     background-color: #eddcd2;
     padding: 15px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    color:white;
 }
 
 

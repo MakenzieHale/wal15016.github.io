@@ -1,32 +1,41 @@
-@media only screen and (min-width: 35em){
-    header img{
-        width:100%;
-     
+@media only screen and (min-width: 35em) {
+    header img {
+        width: 100%;
+
     }
-    .headings h1{
+
+    .headings h1 {
         font-size: 2rem;
         align-self: center;
     }
 
-    .motto{
+    .motto {
         letter-spacing: 1.5pt;
-        font-size:larger;
-        margin-left:17px;
+        font-size: larger;
+        margin-left: 17px;
     }
-    button{display:none;}
-   nav ul.hide, nav ul{
-       display:flex;
-   }
-    nav ul li{
-        flex:1 1 100%;
+
+    button {
+        display: none;
     }
-    nav ul li a{
-        border:none;
-        border-right:1px solid rgba(0,0,0,0.3);
+
+    nav ul.hide,
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0, 0, 0, 0.3);
         padding: .8rem 1rem;
     }
-    nav ul{
-        margin-left:2%;
+
+    nav ul {
+        margin-left: 2%;
     }
 
 
