@@ -34,24 +34,23 @@ header img {
     margin-right: 40px;
 }
 
-.headings {
-    display: flex;
-    flex-direction: column;
-}
 
 .headings h1 {
-    font-size: 1.2em;
-    margin: 0 0 0 30px;
-    color: white;
+    font-size: 1rem;
+    margin: 0 auto;
+    color:black;
     font-family: 'Cinzel', serif;
+}
+h2, h3{
+    font-family:'Pathway Gothic One', sans-serif;
 }
 
 .motto {
     font-style: italic;
     letter-spacing: 1pt;
-    color: #b7b7a4;
-    margin-right: 60px;
-    font-size: .9rem;
+    color: black;
+    margin-right: 0 auto;
+    font-size: .8rem;
     text-align: center;
 }
 
@@ -107,8 +106,9 @@ nav ul.hide {
     padding: 25px;
 }
 
-.bannerImg {
-    max-width: 100%;
+.preston, .weatherSum {
+    border: 3px dashed #b7b7a4;
+    padding:10px;
 }
 
 .three {
@@ -127,14 +127,13 @@ nav ul.hide {
 }
 
 footer {
+    display:flex;
+    justify-content: space-around;
     background-color: #eddcd2;
     padding: 15px;
 }
 
-.fa {
-    font-size: 30px;
-    margin-right: 10px;
-}
+
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {

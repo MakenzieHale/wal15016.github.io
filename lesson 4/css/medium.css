@@ -1,9 +1,11 @@
 @media only screen and (min-width: 35em){
     header img{
         width:100%;
+     
     }
     .headings h1{
-        font-size: 3rem;
+        font-size: 2rem;
+        align-self: center;
     }
 
     .motto{
