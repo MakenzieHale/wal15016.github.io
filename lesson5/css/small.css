@@ -15,13 +15,14 @@ body {
     background-color: #f0efeb;
     padding: 0;
     margin: 0;
-
-
+    
 }
+
+
 
 header {
     background-color: #eddcd2;
-    padding: 20px 0;
+    padding: 15px 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -68,7 +69,7 @@ button {
 
 nav {
 
-    background-color: #f0efeb;
+    background-color: #b7b7a4;
     font-family: Verdana, sans-serif;
 }
 
@@ -106,9 +107,65 @@ nav ul.hide {
     
     padding: 25px;
 }
+.preston{
+    text-align:center;
+}
+.heroCon{
+ position:relative;
+ margin:10px auto;
+
+}
 
 
-.weatherSum,
+
+.weatherSummary{
+    display:block;
+    top:25px;
+    left:10px;
+    background-color: thistle;
+    border: 1px solid #ccc;
+    padding: .5rem;
+    box-shadow: 0 0 30px #777777;
+    opacity:.8;
+
+
+}
+ img{
+    width:100%;
+   
+    
+ }
+.article{
+    font-weight:bold;
+
+}
+.column{
+    border-right:1px solid black;
+}
+.weathercol{
+    column-count:7;
+    column-gap: 0;
+ 
+}
+
+.col-head{
+    display:block;
+    padding:5px;
+    border-bottom:1px solid #333;
+    text-align:center;
+    background-color: white;
+    color:black;
+    font-size: 1rem;
+}
+
+.data{
+    display:block;
+    padding: 0 5px 5px;
+    text-align:center;
+    font-size:.5rem;
+    background-color:#ddbea9 ;
+  
+}
 .article,
 .contact{
     border: 3px dashed #b7b7a4;
@@ -141,6 +198,7 @@ a{
 a:hover{
     color:white;
 }
+
 
 
 
