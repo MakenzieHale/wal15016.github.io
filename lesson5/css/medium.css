@@ -91,6 +91,9 @@
         align-content: center;
         justify-content: space-evenly;
     }
+    .socialIcon{
+        max-width: 50px;
+    }
     .map{
         max-width:25%;
     }
