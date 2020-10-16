@@ -128,7 +128,7 @@ h3 {
 }
 
 #pancakes {
-    display:none;
+    display: none;
     max-width: 100%;
     background-color: #e5e5e5;
     opacity: 1;
@@ -160,16 +160,18 @@ p {
 
 
 }
-#title{
+
+#title {
     border-bottom: 2px solid black;
 }
+
 .banner {
     width: 100%;
-    border:2px solid black;
+    border: 2px solid black;
 
 }
 
-    
+
 
 
 
@@ -198,11 +200,12 @@ p {
     padding: 0 5px 5px;
     text-align: center;
     font-size: .5rem;
- 
+
 
 }
-.weatherIcon{
-    max-width:60px;
+
+.weatherIcon {
+    max-width: 60px;
 }
 
 
@@ -210,7 +213,7 @@ p {
 .three {
     border: 3px solid #ddbea9;
     text-align: center;
-    
+
 }
 
 .forecast {
@@ -218,29 +221,29 @@ p {
     padding: 20px;
     text-align: center;
 }
-.rainbow{
-  display:block;
-    max-width:100%;
-    padding:10px;
-  
+
+.rainbow {
+    display: block;
+    max-width: 100%;
+    padding: 10px;
+
 }
 
 
-.article, .contact{
-    text-align: center;
-}
 
-.four{
-    border:3px solid black;
-    display:block;
+
+.four {
+    border: 3px solid black;
+    display: block;
     padding: 20px;
 }
-.socialIcon{
-    max-width:20px;
+
+.socialIcon {
+    max-width: 20px;
 }
 
-.map{
-    max-width:100%;
+.map {
+    max-width: 100%;
 }
 
 
