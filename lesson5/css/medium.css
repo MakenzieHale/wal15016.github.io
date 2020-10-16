@@ -57,6 +57,9 @@
 .data{
     font-size:25px;
 }
-
+footer{
+    display:flex;
+    justify-content: space-around;
+}
 
 }

@@ -127,6 +127,7 @@ nav ul.hide {
     padding: .5rem;
     box-shadow: 0 0 30px #777777;
     opacity:.8;
+    text-align: center;
 
 
 }
@@ -166,10 +167,11 @@ nav ul.hide {
     background-color:#ddbea9 ;
   
 }
-.article,
-.contact{
+.article{
     border: 3px dashed #b7b7a4;
     padding: 10px;
+    max-width:50%;
+    text-align: center;
 }
 
 .three {
@@ -183,11 +185,16 @@ nav ul.hide {
     text-align: center;
 }
 
+.four{
+    background-color: #b7b7a4;
+   text-align: center;
+}
+
 
 
 footer {
-    display: flex;
-    justify-content: space-around;
+    display: block;
+ 
     background-color: #eddcd2;
     padding: 15px;
 }
