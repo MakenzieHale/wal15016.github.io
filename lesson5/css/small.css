@@ -164,19 +164,18 @@ p {
 img {
     width: 100%;
 
-
 }
 
-.rainbow{
-    visibility: hidden;
-}
+    
+
+
 
 .column {
     border-right: 1px solid black;
 }
 
-.weathercol {
-    column-count: 7;
+.weatherCol {
+    column-count: 5;
     column-gap: 0;
 
 }
@@ -196,8 +195,11 @@ img {
     padding: 0 5px 5px;
     text-align: center;
     font-size: .5rem;
-    background-color: #ddbea9;
+ 
 
+}
+.weatherIcon{
+    max-width:60px;
 }
 
 
@@ -213,14 +215,26 @@ img {
     padding: 20px;
     text-align: center;
 }
+.rainbow{
+  display:block;
+    max-width:100%;
+  
+}
 
-.four {
-    background-color: #b7b7a4;
+
+.article, .contact{
     text-align: center;
 }
 
+.four{
+    display:block;
+}
+.socialIcon{
+    max-width:50px;
+}
+
 .map{
-    max-width:50%;
+    max-width:100%;
 }
 
 

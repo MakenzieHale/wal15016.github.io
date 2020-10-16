@@ -60,18 +60,39 @@
     .forecast {
         font-size: 25px;
     }
-    .column{
-        padding:5px;
-        border:none;
+
+    .column {
+        padding: 5px;
+        border: none;
     }
-    .rainbow{
-        visibility: visible;
-        max-width:35%;
-        float:left;
+
+    .art {
+        display: flex;
+
+    }
+
+    .rainbow {
+        max-width: 20%;
+        height: auto;
+        float: right;
+        margin: 0 10px 10px 0;
+
     }
 
     .data {
         font-size: 20px;
+    }
+
+    .four {
+        border:3px solid black;
+        padding: 20px;
+        display: flex;
+        flex-direction: row-reverse;
+        align-content: center;
+        justify-content: space-evenly;
+    }
+    .map{
+        max-width:25%;
     }
 
     footer {
