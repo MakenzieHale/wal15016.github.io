@@ -160,9 +160,12 @@ p {
 
 
 }
-
-img {
+#title{
+    border-bottom: 2px solid black;
+}
+.banner {
     width: 100%;
+    border:2px solid black;
 
 }
 
@@ -218,6 +221,7 @@ img {
 .rainbow{
   display:block;
     max-width:100%;
+    padding:10px;
   
 }
 
@@ -227,7 +231,9 @@ img {
 }
 
 .four{
+    border:3px solid black;
     display:block;
+    padding: 20px;
 }
 .socialIcon{
     max-width:20px;
