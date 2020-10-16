@@ -107,6 +107,12 @@ nav ul.hide {
     
     padding: 25px;
 }
+h1{
+    font-family: 'Cinzel', serif;
+}
+h2, h3{
+    font-family: 'Pathway Gothic One', sans-serif;
+}
 .preston{
     text-align:center;
 }
@@ -115,7 +121,21 @@ nav ul.hide {
  margin:10px auto;
 
 }
+#pancakes{
+    max-width:100%;
+    background-color:#e5e5e5;
+    opacity:1;
+    text-align: center;
+    font-family: 'Piazzolla', serif;
+    font-size:20px;
+    color:black;
+    font-weight:bolder;
+    padding:10px;
 
+}
+p{
+    font-family:'Montserrat', sans-serif';
+}
 
 
 .weatherSummary{

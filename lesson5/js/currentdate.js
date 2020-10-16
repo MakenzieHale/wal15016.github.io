@@ -7,3 +7,10 @@ function getFormattedDate() {
 document.addEventListener("DOMContentLoaded", function() { 
     document.getElementById("currentDate").innerHTML = getFormattedDate(); 
 });
+function showPancakes(){
+    let today = new Date;
+    if(today.getDay() == 5){
+        document.getElementById('pancakes').style.display ="block";
+    }
+}
+
