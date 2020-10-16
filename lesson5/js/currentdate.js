@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
 function showPancakes(){
     let today = new Date();
     if(today.getDay() == 5){
-        document.getElementById("pancakes").style.visibility ="visible";
+        document.getElementById("pancakes").style.display ="block";
     }
 }
 
