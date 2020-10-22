@@ -1,0 +1,264 @@
+
+
+body {
+    background-color: #f0efeb;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+
+header {
+    background-color: #eddcd2;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+header img {
+    width: 100px;
+    height: auto;
+    margin-right: 40px;
+}
+
+
+.headings h1 {
+    font-size: 1rem;
+    margin: 0 auto;
+    color: black;
+    font-family: 'Cinzel', serif;
+}
+
+h2,
+h3 {
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.motto {
+    font-style: italic;
+    letter-spacing: 1pt;
+    color: black;
+    margin-right: auto;
+    font-size: .8rem;
+    text-align: center;
+}
+
+
+button {
+    margin: auto;
+    margin-right: 40px;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #555;
+}
+
+nav {
+
+    background-color: #b7b7a4;
+    font-family: Verdana, sans-serif;
+}
+
+nav ul {
+
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #000;
+    border-top: 1px solid rgba(0, 0, 0, .3);
+}
+
+nav ul li.active a {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+nav ul.hide {
+    display: none;
+}
+
+.content {
+
+    padding: 25px;
+}
+
+h1 {
+    font-family: 'Cinzel', serif;
+}
+
+h2,
+h3 {
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.preston {
+    text-align: center;
+}
+
+.heroCon {
+    position: relative;
+    margin: 10px auto;
+
+}
+
+#pancakes {
+    display: none;
+    max-width: 100%;
+    background-color: #e5e5e5;
+    opacity: 1;
+    text-align: center;
+    font-family: 'Piazzolla', serif;
+    font-size: 15px;
+    color: black;
+    font-weight: bolder;
+    padding: 10px;
+
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.weatherSummary {
+    display: block;
+    top: 25px;
+    left: 10px;
+    background-color: thistle;
+    border: 1px solid #ccc;
+    padding: .5rem;
+    box-shadow: 0 0 30px #777777;
+    opacity: .8;
+    text-align: center;
+
+
+}
+
+#title {
+    border-bottom: 2px solid black;
+}
+
+.banner {
+    width: 100%;
+    border: 2px solid black;
+
+}
+
+
+
+
+
+.column {
+    border-right: 1px solid black;
+}
+
+.weatherCol {
+    column-count: 5;
+    column-gap: 0;
+
+}
+
+.col-head {
+    display: block;
+    padding: 5px;
+    border-bottom: 1px solid #333;
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+}
+
+.data {
+    display: block;
+    padding: 0 5px 5px;
+    text-align: center;
+    font-size: .5rem;
+
+
+}
+
+.weatherIcon {
+    max-width: 60px;
+}
+
+
+
+.three {
+    border: 3px solid #ddbea9;
+    text-align: center;
+
+}
+
+.forecast {
+    background-color: #b7b7a4;
+    padding: 20px;
+    text-align: center;
+}
+
+.rainbow {
+    display: block;
+    max-width: 100%;
+    padding: 10px;
+
+}
+
+
+
+
+.four {
+    border: 3px solid black;
+    display: block;
+    padding: 20px;
+}
+
+.socialIcon {
+    max-width: 20px;
+}
+
+.map {
+    max-width: 100%;
+}
+
+
+
+footer {
+    display: block;
+
+    background-color: #eddcd2;
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
