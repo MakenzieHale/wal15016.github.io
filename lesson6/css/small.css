@@ -154,12 +154,14 @@ p {
     border-bottom: 2px solid black;
 }
 
-.banner {
-    width: 100%;
+  .banner {
+    max-width: 100%;
     border: 2px solid black;
 
 }
-
+.banner,img{
+    max-width:100%;
+}
 
 
 
