@@ -153,10 +153,6 @@ p {
 #title {
     border-bottom: 2px solid black;
 }
-.figure{
-    justify-content: center;
-    align-content: center;
-}
 
   .banner {
       margin:auto;
@@ -166,6 +162,7 @@ p {
  img{
     display:block;
      max-width:100%;
+     margin:auto;
 }
 
 
@@ -236,6 +233,7 @@ p {
 
 .socialIcon {
     max-width: 20px;
+    display:inline;
 }
 
 .map {
