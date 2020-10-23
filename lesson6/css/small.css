@@ -156,11 +156,9 @@ p {
 
   .banner {
       margin:auto;
-    max-width: 100%;
-    border: 2px solid black;
 
 }
-.img{
+.banner img{
     display:block;
      max-width:100%;
 }
