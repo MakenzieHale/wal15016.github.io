@@ -6,7 +6,14 @@ document.getElementById('year').innerHTML = new Date().getFullYear();
 
 
 
-
+WebFont.load({
+    google: {
+      families: [
+         'Piazzolla, Cinzel, Monserrat,Pathway Gothic One'
+      ]
+    }
+  });
+  
 
 
 
