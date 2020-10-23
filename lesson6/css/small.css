@@ -155,14 +155,14 @@ p {
 }
 
   .banner {
+      margin:auto;
     max-width: 100%;
     border: 2px solid black;
 
 }
-.banner,img{
-        display:block;
-
-    max-width:100%;
+.img{
+    display:block;
+     max-width:100%;
 }
 
 
