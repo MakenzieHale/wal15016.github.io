@@ -16,9 +16,10 @@
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
+    <script src="js/windChill.js"></script>
 </head>
 
-<body onload="showPancakes();">
+<body onload="showPancakes(); windChill();">
     <header>
         <picture>
             <img class="logo" src="../lesson5/images/logo.png" alt="logo">
@@ -53,15 +54,21 @@
         <div id="pancakes">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion</div>
         <h1 id="title">Preston, Idaho</h1>
         <div class="heroCon">
-           <figure class="banner">
-               <img src="../lesson5/images/pexels-tahir-shaw-186980.jpg" alt="banner-img"srcset="images/large.png 1x, images/medium.png 2x,
-               images/smallScreen.png 3x">
-           </figure>
+           <picture class="banner">
+            
+                <source media="(min-width:1200px)" srcset="images/large.png">
+                <source media="(min-width:650px)" srcset="images/medium.png">
+                <source media="(min-width:375px)" srcset="images/smallScreen.png">
+                <img src="../lesson5/images/pexels-tahir-shaw-186980.jpg" alt="banner" style="width:auto;">
+              
+           </picture>
             <section class="weatherSummary">
                 <h3>Weather Summary</h3>
                 <p>Today's Weather:</p>
-                <p>High: 75 &#176;</p>
-                <p>Low: 63 &#176; </p>
+                <p>Temperature: <span id="t">45</span> &#176;</p>
+                <p>Wind Speed: <span id="s"> 12</span>MPH</p>
+                <p>Wind chill: <span id="windChill"></span></p>
+              
                 <p>Perfect picture time: Between 12:30PM & 3:45 PM </p>
             </section>
         </div>
