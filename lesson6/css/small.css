@@ -153,12 +153,17 @@ p {
 #title {
     border-bottom: 2px solid black;
 }
+.figure{
+    justify-content: center;
+    align-content: center;
+}
 
   .banner {
       margin:auto;
+      width:100%;
 
 }
-.banner img{
+ img{
     display:block;
      max-width:100%;
 }

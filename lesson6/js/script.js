@@ -29,3 +29,6 @@ function showPancakes(){
     }
 }
 
+function getFarenheight(){
+    
+}
