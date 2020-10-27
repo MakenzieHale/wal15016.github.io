@@ -2,7 +2,7 @@ const images = document.querySelectorAll("[data-src]");
 
 
 function preLoadImage(img) {
-    const src = img.getAttribut("data-src");
+    const src = img.getAttribute("data-src");
     if(!src) {
         return;
     }
