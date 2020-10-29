@@ -259,6 +259,22 @@ a:hover {
 }
 
 
+/*gallery page */
+
+#content{
+    display:grid;
+    grid-template-columns: 1fr;
+}
+figure img[data-src]{
+    filter: blur(0.2em);
+    }
+    
+  figure img{
+        filter: blur(0em);
+        transition: filter 0.5s;
+    }
+
+
 
 
 /*----- Clearfix: Force an Element not to collapse -----*/
