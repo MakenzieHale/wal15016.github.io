@@ -109,5 +109,15 @@
         display:grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
+    figcaption{
+        visibility: visible;
+      
+    }
+    figure:hover{
+        border: 1px solid #ccc;
+        padding:5px;
+        box-shadow:5px 5px 5px #999;
+
+    }
 
 }
