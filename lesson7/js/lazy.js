@@ -13,16 +13,21 @@ const loadImages = (image) => {
     image.onload = () => {image.removeAttribute('data-src');};
 };
 if('IntersectionObserver' in window) {
-    const imgObserver = new IntersectionObserver ((images, observer) => {
-        img.forEach((img => {
-
+    const imgObserver = new IntersectionObserver ((items, imgObserver)
+    => {
+        items.forEach((item) => {
+            if(item.isIntersecting) {
+                loadImages(item.target);
+                imgObserver.unobserve(item.target);
+            }
         });
     }, imgOptions);
-
+    
+        imagesToLoad.forEach((img) => {
+            imgObserver.observe(img);
+        });
+} else{
     imagesToLoad.forEach((img) => {
-        imgObserver.observe(img);
+        loadImages(img);
     });
-}
-else{
-
 }
