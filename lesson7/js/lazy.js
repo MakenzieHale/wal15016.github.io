@@ -7,7 +7,7 @@ const imgOptions = {
 };
 
 const loadImages = (image) => {
-    image.getAttribute('src' , image.getAttribute('data-src'));
+    image.getAttribute('src', image.getAttribute('data-src'));
     image.onload = () => {
         image.removeAttribute("data-src");
     };
@@ -22,7 +22,7 @@ if ('IntersectionObserver' in window) {
                 imgObserver.unobserve(item.target);
             }
         });
-    }, imgOptions);
+    },imgOptions);
 
 
     imagesToLoad.forEach((img) => {
