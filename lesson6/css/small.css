@@ -264,6 +264,8 @@ a:hover {
 #content{
     display:grid;
     grid-template-columns: 1fr;
+    grid-gap:25px 5px;
+    padding:5px;
 }
 figure{
     max-width: 100%;
@@ -275,9 +277,9 @@ figure img[data-src]{
   figure img{
         filter: blur(0em);
         transition: filter 0.5s;
-        max-width: 100%;
-        margin: auto;
-        height: auto;
+        max-width: 300px;
+        margin: 0 auto;
+        height:300px;
     }
 
 figcaption{

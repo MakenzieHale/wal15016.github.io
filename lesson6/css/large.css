@@ -111,6 +111,7 @@
     }
     figcaption{
         visibility: visible;
+        text-align: center;
       
     }
     figure:hover{
