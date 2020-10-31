@@ -267,6 +267,9 @@ a:hover {
     grid-gap:25px 5px;
     padding:5px;
 }
+h2{
+    text-align: center;
+}
 figure{
     max-width: 100%;
 }
