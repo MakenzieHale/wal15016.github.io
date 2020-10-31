@@ -112,6 +112,8 @@
     figcaption{
         visibility: visible;
         text-align: center;
+        margin-right:30px;
+        margin-left:25px;
       
     }
     figure:hover{
