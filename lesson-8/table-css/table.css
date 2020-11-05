@@ -11,7 +11,7 @@ td,
 th {
   border: 2px solid #ccc;
   text-align: center;
-  padding: 5px;
+  padding: 8px;
 }
 
 tr:nth-child(odd) {
