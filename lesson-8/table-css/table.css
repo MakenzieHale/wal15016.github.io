@@ -1,8 +1,11 @@
 table {
   font-family: Ubuntu, sans-serif;
+  font-size: 1em;
   border: 2px solid #ccc;
   border-collapse: collapse;
   padding: 5px;
+  box-shadow: 5px 5px #ccc;
+  
 
 
 }
