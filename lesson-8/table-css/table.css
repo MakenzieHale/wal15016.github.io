@@ -4,8 +4,8 @@ table {
   border: 2px solid #ccc;
   border-collapse: collapse;
   padding: 5px;
-  box-shadow: 5px 5px #ccc;
-  
+  box-shadow: 10px 10px rgba(2, 31, 65, 0.3);
+    
 
 
 }
