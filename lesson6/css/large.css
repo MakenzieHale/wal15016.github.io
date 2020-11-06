@@ -127,4 +127,15 @@
         text-align: left;
     }
 
+    /*Storm Center Page */
+   
+form{
+   max-width: 80%;
+   margin: auto;
+}
+    form label.sbs{
+        padding:.4rem 0;
+    }
+
+
 }
