@@ -6,7 +6,7 @@ main div.cards{
     margin:10px;
     padding:20px;
     border:5px solid grey;
-    background-color:#faf0e6;
+    background-color:#e4e4e4;
     justify-content: center;
     align-content:center;
     padding:15px;
@@ -15,7 +15,7 @@ main div.cards{
 
 h1,h2{
     font-family: 'Bree Serif', serif;
-    color:purple;
+    color:#710193;
     font-weight:bolder;
     padding: 5px;
 }
@@ -28,7 +28,7 @@ div{
 section{
     text-align: center;
     border:2px solid lavender;
-    background-color: lavenderblush;
+    background-color: #b19cd9;
     margin:10px;
  
     justify-content: center;
@@ -43,7 +43,7 @@ h2{
 
 p{
     font-size: 20px;
-    font-family: monospace;
+    font-family: serif;
 }
 img{
     width:70%;
