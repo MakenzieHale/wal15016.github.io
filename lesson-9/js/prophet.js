@@ -1,25 +1,41 @@
 const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
 
 fetch(requestURL)
-.then(function(response){
+.then(function (response) {
     return response.json();
 })
-.then(function (jsonObject){
-    console.table(jsonObject); //temporary
+.then(function (jsonObject) {
+   // console.table(jsonObject); 
+
     const prophets = jsonObject['prophets'];
-    prophets.forEach( prophet => {
-        let card = document.createElement('section');
-        let h2 = document.createElement('h2');
-        let image = document.createElement('img');
+    for (let i = 0; i < prophets.length; i++) {
 
-        h2.innerHTML = `${prophet.name} ${prophet.lastname}`;
-        image.setAttribute('src', prophet.imageurl);
-        image.setAttribute('alt', `Official Portrait of ${prophet.name} ${prophet.lastname}`);
+    let card = document.createElement('section');
+    let h2 = document.createElement('h2');
+    let para1 = document.createElement('p');
+    let para2 = document.createElement('p');
+    let image = document.createElement('img');
+
+ 
+
+    h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
+    para1.textContent = 'birth date:' + ' ' + prophets[i].birthdate;
+    para2.textContent = 'birth place:' + ' ' + prophets[i].birthplace;
 
 
-        card.appendChild(h2);
-        card.appendChild(image);
+    card.appendChild(h2);
+    card.appendChild(para1);
+    card.appendChild(para2);
 
-        document.querySelector('.cards').appendChild(card);
-    }
+    image.setAttribute('src' , prophets[i].imageurl);
+    image.setAttribute('alt' , prophets[i].name + ' ' + prophets[i].lastname + prophets[i].order);
+    card.appendChild(image);
+
+    document.querySelector('div.cards').appendChild(card);
+
+
+
+    };
+
+    
 });
