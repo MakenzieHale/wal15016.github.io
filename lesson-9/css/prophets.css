@@ -1,10 +1,11 @@
+
 header{
     text-align: center;
     font-size:40px;
 }
-main div.cards{
-    margin:10px;
-    padding:20px;
+main {
+    max-width: 100%;
+  
     border:5px solid grey;
     background-color:#e4e4e4;
     justify-content: center;
@@ -29,7 +30,7 @@ section{
     text-align: center;
     border:2px solid lavender;
     background-color: #b19cd9;
-    margin:10px;
+    margin:5px;
  
     justify-content: center;
 
@@ -43,7 +44,8 @@ h2{
 
 p{
     font-size: 20px;
-    font-family: serif;
+    font-family: serif
+    ;
 }
 img{
     width:70%;
@@ -51,23 +53,8 @@ img{
 }
 footer{
     text-align: center;
-    font-size:16px;
+    font-size:10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media only screen and (min-width:35em) {
@@ -85,6 +72,10 @@ footer{
         flex-wrap: wrap;
         justify-content: space-evenly;
         align-content: center;
+    }
+    
+    footer{
+        font-size:20px;
     }
 
 }
