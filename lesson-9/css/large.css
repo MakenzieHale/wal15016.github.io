@@ -139,31 +139,29 @@ form{
     }
 
     /*home page styling*/
-    .content{
-        justify-content: center;
-        padding:10px;
-    }
+ 
     
     .places{
         display: flex;
         flex-direction: column;
-        padding:20px;
-        margin:0 auto;
+     
         justify-content: space-evenly;
         justify-items: center;
         align-items: center;
         align-content: center;
+    
     }
     
 
     h2{
-        text-align: center;
+        text-align:center;
     }
     .info{
         padding:10px;
         text-align: center;
       
     }
+    
 
 
 }
