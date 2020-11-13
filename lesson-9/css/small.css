@@ -261,7 +261,7 @@ a:hover {
 }
 
 
-/*gallery page */
+/*gallery page 
 
 #content {
     display: grid;
@@ -294,7 +294,7 @@ figcaption {
     visibility: hidden;
 }
 
-/* Storm Center page */
+/* Storm Center page 
 
 form {
     max-width: 100%;
@@ -369,6 +369,7 @@ form label.top input:required {
 form label.top input:required:valid {
     border-left: green solid 6px;
 }
+*/
 
 /*home page styling */
 .content{

@@ -1,7 +1,8 @@
 WebFont.load({
     google: {
       families: [
-       'Bree Serif'
-      ]
-    }
-  });
+       'Bree Serif Piazzolla,Cinzel,Monserrat,Pathway Gothic One'
+            ]
+        }
+    });
+   
