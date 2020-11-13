@@ -372,6 +372,18 @@ form label.top input:required:valid {
 
 /*home page styling */
 
+main{
+    padding:20px;
+    margin: 0 auto;
+}
+
+section{
+    display: block;
+    text-align: center;
+    margin:10px;
+
+}
+
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";
