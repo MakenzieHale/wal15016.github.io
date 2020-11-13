@@ -14,6 +14,7 @@ fetch(requestURL)
             if (towns[i].name == 'Preston' || towns[i].name == 'Soda Springs' || towns[i].name == 'Fish Haven'){
                 let town = document.createElement('section');
                 let info = document.createElement('div');
+             
                 let h2 = document.createElement('h2');
                 let h3 = document.createElement('h3');
                 let para2 = document.createElement('p')
@@ -22,9 +23,9 @@ fetch(requestURL)
                 let image = document.createElement('img');
 
                 town.appendChild(info);
-                
+              
 
-                town.setAttribute('class', 'towns');
+                town.setAttribute('class', 'places');
                 info.setAttribute('class', 'info');
 
     
@@ -43,7 +44,9 @@ fetch(requestURL)
                 info.appendChild(para4);
 
                 image.setAttribute('class','townPic');
+                
                 image.setAttribute('src','images/'+ towns[i].photo);
+                
                 image.setAttribute('alt','Image of' + ' ' + towns[i].name);
 
                 town.appendChild(image);
@@ -57,3 +60,4 @@ fetch(requestURL)
 
 
     });
+

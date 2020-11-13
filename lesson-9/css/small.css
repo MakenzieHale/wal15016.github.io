@@ -371,21 +371,18 @@ form label.top input:required:valid {
 }
 
 /*home page styling */
-
-main{
-    padding:20px;
-    margin: 0 auto;
+.towns{
+    display:block;
 }
-
-section{
-    display: block;
-    text-align: center;
-    margin:10px;
-
+.info{
+    text-align:center;
+}
+h3{
+    font-size:25px;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
-.clearfix:after {
+.clearfix:after { 
     content: "";
     display: table;
     clear: both;
