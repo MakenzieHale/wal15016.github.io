@@ -143,13 +143,16 @@ form{
     
     .places{
         display: flex;
-        flex-direction: column;
-     
+        flex-direction: row;
         justify-content: space-evenly;
         justify-items: center;
         align-items: center;
         align-content: center;
     
+    }
+
+    .places:nth-child(odd){
+        flex-direction: row-reverse;
     }
     
 

@@ -376,6 +376,14 @@ form label.top input:required:valid {
     justify-content: center;
     padding:30px;
 }
+.homeTitle{
+    color:pink;
+}
+.homeIntro{
+    line-height: 1rem;
+    text-align: center;
+    font-size: 18px;
+}
 .places{
     display:block;
     border: 2px solid #023c19 ;
