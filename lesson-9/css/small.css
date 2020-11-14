@@ -378,6 +378,7 @@ form label.top input:required:valid {
 }
 .homeTitle{
     color:pink;
+    text-align:center;
 }
 .homeIntro{
     line-height: 1rem;
