@@ -110,5 +110,30 @@
         grid-template-columns: 1fr 1fr;
     }
     /*home page styling */
+    .places{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
     
+    }
+    .townPic{
+        max-width: 60%;
+    }
+
+    .places:nth-child(odd){
+        flex-direction: row-reverse;
+    }
+    
+
+    h2{
+        text-align:center;
+    }
+    .info{
+        padding:10px;
+        text-align: center;
+      
+    }
 }

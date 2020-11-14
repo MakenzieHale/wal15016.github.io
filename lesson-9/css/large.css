@@ -140,31 +140,23 @@ form{
 
     /*home page styling*/
  
-    
-    .places{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        justify-items: center;
-        align-items: center;
-        align-content: center;
-    
-    }
+ .towns{
+     display: flex;
+     
+ }
+.info{
+    flex-direction: column;
 
-    .places:nth-child(odd){
-        flex-direction: row-reverse;
-    }
-    
-
-    h2{
-        text-align:center;
-    }
-    .info{
-        padding:10px;
-        text-align: center;
-      
-    }
-    
-
+}
+.places{
+    display: block;
+   
+}
+h2{
+    text-align: center;
+}
+.townPic{
+    max-width: 100%;
+}
 
 }
