@@ -2,11 +2,20 @@ const apiURL = "http://api.openweathermap.org/data/2.5/weather?id=5604473&unit=F
 fetch(apiURL)
 .then((response) => response.json())
 .then((jsObject) => {
-   console.log(jsObject);
+   //console.log(jsObject);
 
             temp = Math.floor(jsObject.main.temp * (9/5) - 459.67);
+            max_temp = Math.floor(jsObject.main.temp_max *(9/5)-459.67);
+
+         
+            
 
    document.getElementById('current-temp').textContent = temp;
+   document.getElementById('max_temp').textContent = max_temp;
+   document.getElementById('humidity').textContent = jsObject.main.humidity;
+   document.getElementById('wind-speed').textContent = jsObject.wind.speed;
+
+
 
    const imagesrc ='https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';
    const desc = jsObject.weather[0].description;
