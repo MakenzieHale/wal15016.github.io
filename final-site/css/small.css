@@ -216,12 +216,16 @@ img {
 
 }
 
+
 .forecast {
     background-color: #b7b7a4;
     padding: 20px;
     text-align: center;
 }
 
+.orchard{
+    line-height: 3em;
+}
 .rainbow {
     display: block;
     max-width: 100%;
@@ -243,7 +247,7 @@ img {
     display: inline;
 }
 
-.map {
+iframe {
     max-width: 100%;
 }
 

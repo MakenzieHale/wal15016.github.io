@@ -61,6 +61,7 @@ fetch(requestURL)
         console.table(jsonObject);
         
         const towns = jsonObject['towns'];
+        for (let i = 0; i < towns.length; i++) {
 
         if(towns[i].name == "Preston"){
            
@@ -76,8 +77,9 @@ fetch(requestURL)
            eventInfo.appendChild(para2);
            eventInfo.appendChild(para3);
 
-       para1.textContent = towns[i].events[0];
+       para1.textContent = towns[i].events;
 
         }
+      }
 
     });

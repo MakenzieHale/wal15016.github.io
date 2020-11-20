@@ -222,11 +222,19 @@ img {
     text-align: center;
 }
 
+
+.orchard{
+    line-height: 3em;
+}
+
 .rainbow {
     display: block;
     max-width: 100%;
     padding: 10px;
 
+}
+iframe {
+    max-width: 100%;
 }
 
 
