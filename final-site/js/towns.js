@@ -17,7 +17,7 @@ fetch(requestURL)
              
                 let h2 = document.createElement('h2');
                 let h3 = document.createElement('h3');
-                let para2 = document.createElement('p')
+                let para2 = document.createElement('p');
                 let para3 = document.createElement('p');
                 let para4 = document.createElement('p');
                 let image = document.createElement('img');

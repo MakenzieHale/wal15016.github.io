@@ -1,7 +1,7 @@
 
    const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=79e15b681560d53f708b95aafeb82274 ";
-   const forapi = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=79e15b681560d53f708b95aafeb82274"
-
+   const forapi = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=79e15b681560d53f708b95aafeb82274";
+   const requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
 
 fetch(apiURL)
 .then((response) => response.json())
@@ -53,4 +53,31 @@ fetch(forapi)
 
      }
 });
+fetch(requestURL)
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (jsonObject) {
+        console.table(jsonObject);
+        
+        const towns = jsonObject['towns'];
 
+        if(towns[i].name == "Preston"){
+           
+           let eventInfo = document.createElement('div');
+
+           eventInfo.setAttribute('class', 'eventInfo');
+
+           let para1 = document.createElement('p');
+           let para2 = document.createElement('p');
+           let para3 = document.createElement('p');
+
+           eventInfo.appendChild(para1);
+           eventInfo.appendChild(para2);
+           eventInfo.appendChild(para3);
+
+       para1.textContent = towns[i].events[0];
+
+        }
+
+    });
