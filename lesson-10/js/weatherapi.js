@@ -23,7 +23,7 @@ const forapi = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&unit
 fetch(forapi)
 .then((response) => response.json())
 .then((jsObject) => {
-   //console.log(jsObject);
+   console.log(jsObject);
      var x = 1;
      let weekDay = new Array(7);
      weekDay[0] = "Sun";
