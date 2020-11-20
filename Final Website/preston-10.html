@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Weather Provider for Preston, Soda Springs, and Fishaven, Idaho. Get the latest weather reports and forecasts">
+    <title>Perf Pic Weather</title>
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Piazzolla:wght@100&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel&family=Montserrat&family=Pathway+Gothic+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script src="js/windChill.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5VEEK4RS81"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-5VEEK4RS81');
+    </script>
+</head>
+
+<body onload="showPancakes(); windChill();">
+    <header>
+        <picture>
+            <img class="logo" src="../lesson5/images/logo.png" alt="logo">
+        </picture>
+        <section class="headings">
+            <h1>Perf Pic Weather</h1>
+            <div class="motto">Helping you get that perfect picture today!</div>
+
+
+        </section>
+        <button onclick="toggleMenu();">&#9776;</button>
+
+
+
+    </header>
+    <nav class="clearfix">
+
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery-7.html">Gallery</a></li>
+
+        </ul>
+    </nav>
+
+
+    <main class="content">
+
+        <div id="pancakes">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion</div>
+        <h1 id="title">Preston, Idaho</h1>
+        <div class="heroCon">
+            <picture class="banner">
+
+                <source media="(min-width:1200px)" srcset="images/prestonLarge.jpg">
+                <source media="(min-width:650px)" srcset="images/prestonMed.jpg">
+                <source media="(min-width:375px)" srcset="images/prestonSmall.jpg">
+                <img src="images/prestonLarge.jpg" alt="banner" style="width:auto;">
+
+            </picture>
+            <section class="weatherSummary">
+                <h3>Weather Summary</h3>
+                <p>Currently: <span id="current"></span></p>
+                <p>Todays High: <span id="currentTemp"></span> &deg; F</p>
+                <p>Wind chill: <span id="windChill"></span> &deg; F</p>
+                <p>Humidity: <span id="humidity"></span>%</p>
+                <p>Wind Speed: <span id="wind-speed"> </span>MPH</p>
+
+
+                <p>Perfect picture time: Between 12:30PM & 3:45 PM </p>
+            </section>
+        </div>
+
+
+        <section class="three">
+            <h2 class="forecast">Five Day Forecast</h2>
+            <div class="weatherCol">
+                <div class="column">
+                    <span class="col-head" id="weather1"></span>
+                    <span class="data" id="forecast1">&deg; F</span>
+                    <img class="weatherIcon" src="" alt=" " id="icon1">
+
+                </div>
+                <div class="column">
+                    <span class="col-head" id="weather2"></span>
+                    <span class="data" id="forecast2">&deg; F</span>
+                    <img class="weatherIcon" src="" alt="" id="icon2">
+
+                </div>
+                <div class="column">
+                    <span class="col-head" id="weather3"></span>
+                    <span class="data" id="forecast3">&deg; F</span>
+                    <img class="weatherIcon" src="" alt="" id="icon3">
+
+                </div>
+                <div class="column">
+                    <span class="col-head" id="weather4"></span>
+                    <span class="data" id="forecast4">&deg; F</span>
+                    <img class="weatherIcon" src=" " alt=" " id="icon4">
+
+                </div>
+                <div class="column">
+                    <span class="col-head" id="weather5"></span>
+                    <span class="data" id="forecast5">&deg; F</span>
+                    <img class="weatherIcon" src="" alt="" id="icon5">
+
+                </div>
+            </div>
+        </section>
+        <h2 class="article">Article Title</h2>
+        <section class="art">
+
+
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus blanditiis sed temporibus
+                exercitationem voluptas expedita sunt eius ratione, sint, iure quaerat doloribus quo et sapiente.
+                Maiores cumque ipsam sint dignissimos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+                placeat beatae assumenda maiores porro iste nam quas animi maxime repellat reprehenderit iusto odit,
+                voluptatibus laboriosam quaerat ipsum modi vitae? Ex. Lorem ipsum dolor sit, amet consectetur
+                adipisicing elit. Labore in dignissimos ullam mollitia, molestiae, quas ab dolores consequatur similique
+                rem explicabo, rerum veniam vero perferendis! Corporis deleniti fugiat rerum sapiente!</p>
+            <img class="rainbow" src="../lesson5/images/pexels-binyamin-mellish-108941.jpg" alt="rainbow">
+
+        </section>
+
+
+
+
+
+
+
+
+        <section class="four">
+            <div class="contactInfo">
+                <h3 class="contact">Contact Information</h3>
+                <p>Email: perfpic@perfpicweather.com</p>
+                <p>Call Us: 555-123-4567</p>
+                <a target="_blank" href="https://www.facebook.com/profile.php?id=100002451197113"> <img
+                        class="socialIcon" src="../lesson5/images/iconfinder_social-instagram-new-circle_1164349.png"
+                        alt="insta"></a>
+                <a target="_blank" href="https://twitter.com/?lang=en"><img class="socialIcon"
+                        src="../lesson5/images/iconfinder_twitter_circle_color_107170.png" alt="twitter"></a>
+                <a target="_blank" href="https://www.instagram.com/"><img class="socialIcon"
+                        src="../lesson5/images/iconfinder_1_Facebook_colored_svg_copy_5296499.png" alt="facebook"></a>
+            </div>
+
+            <img class="map" src="../lesson5/images/pexels-lorenzo-240834.jpg" alt="map">
+
+        </section>
+
+
+    </main>
+    <footer>
+        <div>&copy; <span id="year"></span> | Makenzie Hale | WDD 230 |<a class="bIdaho" target="_blank"
+                href="https://www.byui.edu/online">&nbsp;BYU Idaho Online Learning |</a> &nbsp;<span
+                id="currentDate"></span>&nbsp;<a class="portal" href="../index.html">| Back to Assignment
+                Portal</a></div>
+
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/currentdate.js"></script>
+    <script src="js/weatherapi.js"></script>
+    <script src="js/windChill.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfont.js"></script>
+
+</body>
+
+</html>
