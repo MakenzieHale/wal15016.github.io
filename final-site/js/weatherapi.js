@@ -1,4 +1,8 @@
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=79e15b681560d53f708b95aafeb82274 ";
+
+   const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=79e15b681560d53f708b95aafeb82274 ";
+   const forapi = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=79e15b681560d53f708b95aafeb82274"
+
+
 fetch(apiURL)
 .then((response) => response.json())
 .then((jsObject) => {
@@ -18,8 +22,6 @@ fetch(apiURL)
 
 });
 
-const forapi = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=79e15b681560d53f708b95aafeb82274";
-
 fetch(forapi)
 .then((response) => response.json())
 .then((jsObject) => {
@@ -36,7 +38,7 @@ fetch(forapi)
 
      for(i = 0; i < jsObject.list.length; i++){
       var myTime = jsObject.list[i].dt_txt.substring(11);
-        let date = new Date(jsObject.list[i].dt * 1000);
+        let date = new Date(jsObject.list[i].dt * 1000); //turns milliseconds into seconds
         let weather = weekDay[date.getDay()];
         if(myTime == '18:00:00' && x<=5 ) {
            document.getElementById('weather' + x).textContent = weather;
@@ -50,4 +52,5 @@ fetch(forapi)
         }
 
      }
-})
+});
+

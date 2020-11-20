@@ -44,29 +44,6 @@
         font-size: 20px;
     }
 
-    .col-head,
-    .article,
-    .forecast {
-        font-size: 25px;
-    }
-
-    .column {
-        padding: 5px;
-        border: none;
-    }
-
-    .art {
-        display: flex;
-
-    }
-
-    .rainbow {
-        max-width: 20%;
-        height: auto;
-        float: right;
-        margin: 0 10px 10px 0;
-
-    }
 
     .data {
         font-size: 20px;
