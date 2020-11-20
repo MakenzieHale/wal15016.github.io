@@ -18,14 +18,17 @@
     <link rel="stylesheet" href="css/large.css">
     <script src="js/windChill.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-5VEEK4RS81"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5VEEK4RS81"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'G-5VEEK4RS81');
-</script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-5VEEK4RS81');
+    </script>
 </head>
 
 <body onload="showPancakes(); windChill();">
@@ -73,12 +76,12 @@
             </picture>
             <section class="weatherSummary">
                 <h3>Weather Summary</h3>
-                <p>Currently: <span id="current-temp"></span>&deg; F</p>
-                <p>Todays High: <span id="max_temp"></span> &deg; F</p>
+                <p>Currently: <span id="current"></span></p>
+                <p>Todays High: <span id="currentTemp"></span> &deg; F</p>
                 <p>Wind chill: <span id="windChill"></span></p>
                 <p>Humidity: <span id="humidity"></span>%</p>
                 <p>Wind Speed: <span id="wind-speed"> </span>MPH</p>
-                
+
 
                 <p>Perfect picture time: Between 12:30PM & 3:45 PM </p>
             </section>
@@ -166,19 +169,11 @@
 
     </footer>
     <script src="js/script.js"></script>
+    <script src="js/currentdate.js"></script>
     <script src="js/weatherapi.js"></script>
     <script src="js/windChill.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script>
-        WebFont.load({
-            google: {
-                families: [
-                    'Piazzolla','Cinzel','Monserrat','Pathway', 'Gothic One'
-                ]
-            }
-        });
-    </script>
-
+    <script src="js/webfont.js"></script>
 
 </body>
 
