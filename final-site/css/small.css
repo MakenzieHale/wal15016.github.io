@@ -172,7 +172,11 @@ img {
     margin: auto;
 }
 
-
+.forecast {
+    background-color: #b7b7a4;
+    padding: 20px;
+    text-align: center;
+}
 
 
 .column {
@@ -211,17 +215,17 @@ img {
 
 
 .three {
+    display: block;
     border: 3px solid #ddbea9;
     text-align: center;
 
 }
 
-
-.forecast {
-    background-color: #b7b7a4;
-    padding: 20px;
-    text-align: center;
+.art{
+    display: block;
 }
+
+
 
 .orchard{
     line-height: 3em;
