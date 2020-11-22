@@ -73,11 +73,15 @@ fetch(requestURL)
            let para2 = document.createElement('p');
            let para3 = document.createElement('p');
 
+           para1.textContent = towns[i].events[0];
+           para2.textContent = towns[i].events[1];
+           para3.textContent = towns[i].events[2];
+
            eventInfo.appendChild(para1);
            eventInfo.appendChild(para2);
            eventInfo.appendChild(para3);
 
-       para1.textContent = towns[i].events;
+      
 
         }
       }
