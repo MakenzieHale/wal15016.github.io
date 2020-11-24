@@ -3,7 +3,10 @@ var currentId = "5604473";
 if (currentURL.indexOf("preston.html") > 0) {
    currentId = "5604473";
 } else if (currentId.indexOf("sodaSprings.html") > 0) {
-   currentId = ""; //The Soda Springs ID here
+   currentId = "5607916"; //The Soda Springs ID here
+}
+else if (currentId.indexOf("fishHaven.html") > 0){
+   currentId = "lat=42.0380399&lon=-111.4048681";
 }
 
 const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=" + currentId + "&units=imperial&APPID=79e15b681560d53f708b95aafeb82274 ";
@@ -95,8 +98,27 @@ fetch(requestURL)
          }
          else if(towns[i].name == "Soda Springs"){
 
+            eventInfo.setAttribute('class', 'eventInfo');
+            for (let x = 0; x <= towns[i].events.length; x++) {
+
+               let para = document.createElement('p');
+
+               para.textContent = towns[i].events[x];
+
+               eventInfo.appendChild(para);
+            }
          }
          else if(towns[i].name == "Fish Haven" &&currentURL.indexOf('fishHaven.html') > 0){
+
+            eventInfo.setAttribute('class', 'eventInfo');
+            for (let x = 0; x <= towns[i].events.length; x++) {
+
+               let para = document.createElement('p');
+
+               para.textContent = towns[i].events[x];
+
+               eventInfo.appendChild(para);
+            }
             
          }
 
