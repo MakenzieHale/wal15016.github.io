@@ -16,7 +16,7 @@ const requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
 fetch(apiURL)
    .then((response) => response.json())
    .then((jsObject) => {
-      console.log(jsObject);
+      //console.log(jsObject);
 
       //temp = Math.floor(jsObject.main.temp * (9/5) - 459.67);
       //max_temp = Math.floor(jsObject.main.temp_max *(9/5)-459.67);
@@ -35,7 +35,7 @@ fetch(apiURL)
 fetch(forapi)
    .then((response) => response.json())
    .then((jsObject) => {
-      console.log(jsObject);
+      //console.log(jsObject);
       var x = 1;
       let weekDay = new Array(7);
       weekDay[0] = "Sun";
@@ -68,7 +68,7 @@ fetch(requestURL)
       return response.json();
    })
    .then(function (jsonObject) {
-      console.table(jsonObject);
+      //console.table(jsonObject);
 
       const towns = jsonObject['towns'];
       for (let i = 0; i < towns.length; i++) {
