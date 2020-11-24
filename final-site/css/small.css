@@ -238,7 +238,9 @@ img {
 
 }
 
-
+.contactInfo{
+    text-align: center;
+}
 
 
 .four {
@@ -254,6 +256,7 @@ img {
 
 iframe {
     max-width: 100%;
+    border: 0;
 }
 
 
