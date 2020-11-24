@@ -259,6 +259,9 @@ iframe {
     border: 0;
 }
 
+.banner, .three, #events{
+    margin:40px;
+}
 
 
 footer {
