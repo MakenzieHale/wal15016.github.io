@@ -221,6 +221,7 @@ img {
 
 }
 
+
 .art{
     display: block;
 }
@@ -415,6 +416,15 @@ h2{
 }
 h3{
     font-size:25px;
+}
+
+#events{
+    text-align: center;
+}
+
+.eventTitle{
+    border-bottom:1px solid #023c19;
+    font-size: 30px;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/

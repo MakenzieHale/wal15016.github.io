@@ -96,7 +96,7 @@ fetch(requestURL)
 
 
          }
-         else if(towns[i].name == "Soda Springs"){
+         else if(towns[i].name == "Soda Springs" && currentURL.indexOf('sodaSprings.html') >0){
 
             eventInfo.setAttribute('class', 'eventInfo');
             for (let x = 0; x <= towns[i].events.length; x++) {
@@ -108,7 +108,7 @@ fetch(requestURL)
                eventInfo.appendChild(para);
             }
          }
-         else if(towns[i].name == "Fish Haven" &&currentURL.indexOf('fishHaven.html') > 0){
+         else if(towns[i].name == "Fish Haven" && currentURL.indexOf('fishHaven.html') > 0){
 
             eventInfo.setAttribute('class', 'eventInfo');
             for (let x = 0; x <= towns[i].events.length; x++) {
