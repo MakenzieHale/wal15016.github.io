@@ -1,16 +1,16 @@
 var currentURL = window.location.href;
-var currentId = "5604473";
+var currentId = "id=5604473";
 if (currentURL.indexOf("preston.html") > 0) {
-   currentId = "5604473";
-} else if (currentId.indexOf("sodaSprings.html") > 0) {
-   currentId = "5607916"; //The Soda Springs ID here
+   currentId = "id=5604473";
+} else if (currentURL.indexOf("sodaSprings.html") > 0) {
+   currentId = "id=5607916"; //The Soda Springs ID here
 }
-else if (currentId.indexOf("fishHaven.html") > 0){
+else if (currentURL.indexOf("fishHaven.html") > 0){
    currentId = "lat=42.0380399&lon=-111.4048681";
 }
 
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=" + currentId + "&units=imperial&APPID=79e15b681560d53f708b95aafeb82274 ";
-const forapi = "https://api.openweathermap.org/data/2.5/forecast?id=" + currentId + "&units=imperial&APPID=79e15b681560d53f708b95aafeb82274";
+const apiURL = `https://api.openweathermap.org/data/2.5/weather?${currentId}&units=imperial&APPID=79e15b681560d53f708b95aafeb82274`;
+const forapi = "https://api.openweathermap.org/data/2.5/forecast?" + currentId + "&units=imperial&APPID=79e15b681560d53f708b95aafeb82274";
 const requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
 
 fetch(apiURL)
