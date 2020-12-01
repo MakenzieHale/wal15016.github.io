@@ -1,11 +1,14 @@
 body{
     max-width: 100%;
+    background-color: #f0f6f6;
+    margin: auto;
 }
 main{
     max-width:1200px;
     justify-items: center;
     align-items: center;
     margin: auto;
+   
 }
 header{
     background-color: #f0f6f6;
@@ -14,6 +17,14 @@ header{
     text-align: center;
     align-items: center;
     justify-content: center;
+}
+header .logo{
+    margin-right:80px;
+}
+.motto{
+    visibility: hidden;
+    font-size: 10px;
+    
 }
 img{
     max-width: 100%;
@@ -62,7 +73,13 @@ nav ul li a:hover {
 nav ul.hide {
     display: none;
 }
-
+h1,h2,h3{
+    color:#0b5351;
+    font-family:'Major Mono Display', monospace;
+}
+h2{
+    font-size: 50px;
+}
 
 
 
