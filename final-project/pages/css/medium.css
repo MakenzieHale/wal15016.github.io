@@ -1,0 +1,22 @@
+button {
+    display: none;
+}
+
+nav ul.hide,
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    flex: 1 1 100%;
+}
+
+nav ul li a {
+    border: none;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+    padding: .8rem 1rem;
+}
+
+nav ul {
+    margin-left: 2%;
+}
