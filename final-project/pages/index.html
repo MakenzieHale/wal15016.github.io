@@ -25,8 +25,9 @@
         <section class="motto">
             <h1 class="explore">It's time to explore in style</h1>
         </section>
+        <button onclick="toggleMenu();">&#9776;</button>
     </header>
-    <button onclick="toggleMenu();">&#9776;</button>
+  
     <nav class="clearfix">
 
         <ul id="primaryNav" class="hide">
@@ -40,15 +41,35 @@
     </nav>
     <main class="content">
         <h2>Come Explore with us!</h2>
-        <p>Scoots Motor Co is a motor scooter rental company located on the Island of Cozumel off the coast of Mexico in
-            the western Carribean Sea. We cater to locals, walk-in tourists, enthusiasts, and cruise-based touring
-            groups and partnerships! We promote friendly and easy to rent services of motor scooters, jeeps, and
-            side-by-sides ATVs. </p>
+           <section class="small-view">     
             <picture >
-                <img class="small-view" src="images/scooter-banner.png">
+                <img src="images/scooter-banner.png" alt="motorcycle">
             </picture>
+        </section>  
+        <section class="large">
+            <picture>
+                <img src="images/jeep (1).jpg" alt="jeep">
+            </picture>
+            <picture>
+                <img src="images/lizard (1).jpg" alt="lizard">
+            </picture>
+            <picture>
+            <img src="images/motorcycle.jpg" alt="girl on vespa">
+            </picture>
+        </section>
+        
+          
+            <p>Scoots Motor Co is a motor scooter rental company located on the Island of Cozumel off the coast of Mexico in
+                the western Carribean Sea. We cater to locals, walk-in tourists, enthusiasts, and cruise-based touring
+                groups and partnerships! We promote friendly and easy to rent services of motor scooters, jeeps, and
+                side-by-sides ATVs. </p>
+                <div class="call-to-action">
+                    <p class="action">Book a rental with us today!</p>
+                    <span ><a class="click" href="#">Click here for reservations</a></span>
+
+                </div>
             <section class="weatherInfo">
-                <h3>Make sure to plan your trip, right down to the weather!</h3>
+                <h3 class="weather-headline">Make sure to plan your trip, right down to the weather!</h3>
                 <div class="weatherCol">
                     <div class="column">
                         <span class="col-head" id="weather1"></span>
@@ -84,6 +105,7 @@
             </section>
     </main>
   <script src="js/menu.js"></script>
+  <script src="js/weather.js"></script>
 </body>
 
 </html>

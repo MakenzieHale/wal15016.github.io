@@ -1,3 +1,7 @@
+@media only screen and (min-width: 35em){
+
+
+
 button {
     display: none;
 }
@@ -19,4 +23,29 @@ nav ul li a {
 
 nav ul {
     margin-left: 2%;
+}
+header {
+    background-color: #f0f6f6;
+    display: flex;
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+ .logo {
+    margin-left: 30px;
+
+
+}
+
+
+
+.motto {
+display:inline-block;
+margin-right:80px;
+margin-top:40px;
+font-size: 12px;
+font-style: italic;
+}
 }

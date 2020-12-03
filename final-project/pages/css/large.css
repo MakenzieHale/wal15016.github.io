@@ -1,0 +1,38 @@
+@media only screen and (min-width: 65em) {
+
+.motto{
+    display: inline;
+}
+    .small-view {
+        display: none;
+        }
+
+.large {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-around;
+    padding: 35px;
+
+}
+
+.large picture {
+    padding: 15px;
+}
+
+.large img {
+    max-width: 100%;
+
+}
+
+h2 {
+    font-size: 60px;
+}
+
+
+
+
+
+
+
+}

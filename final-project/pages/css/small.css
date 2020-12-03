@@ -1,34 +1,34 @@
-body{
+body {
     max-width: 100%;
     background-color: #f0f6f6;
     margin: auto;
 }
-main{
-    max-width:1200px;
+
+main {
+    max-width: 1200px;
     justify-items: center;
     align-items: center;
     margin: auto;
-   
+
 }
-header{
-    background-color: #f0f6f6;
-    display: flex;
-    padding:15px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-header .logo{
-    margin-right:80px;
-}
+
 .motto{
-    visibility: hidden;
-    font-size: 10px;
-    
+    display: none;
 }
-img{
+
+img {
     max-width: 100%;
 }
+
+.large {
+    display: none;
+}
+
+.small-view {
+    padding: 35px;
+    
+}
+
 button {
     margin: auto;
     margin-right: 40px;
@@ -73,12 +73,50 @@ nav ul li a:hover {
 nav ul.hide {
     display: none;
 }
-h1,h2,h3{
-    color:#0b5351;
-    font-family:'Major Mono Display', monospace;
+
+h1,
+h2,
+h3 {
+    color: #0b5351;
+    font-family: 'Major Mono Display', monospace;
 }
-h2{
-    font-size: 50px;
+
+h2 {
+    font-size: 22px;
+    font-weight: bolder;
+    border-bottom:4px solid #af7a6d;
+}
+p{
+    line-height: 2.5em;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+.call-to-action{
+    width: 360px;
+    height: 160px;
+    border-radius: 50%;
+    border:6px solid #0b5351;
+    text-align: center;
+    margin:0 auto;
+    background-color: #af7a6d;
+}
+.action{
+    font-family: 'Playfair Display', serif;
+    font-size:20px;
+    font-style: italic;
+    font-weight: bolder;
+    padding:10px;
+    color:white;
+}
+.click{
+    color:white;
+}
+.weatherInfo{
+    border:4px solid #af7a6d;
+    margin:30px;
+}
+.weather-headline{
+    text-align: center;
 }
 
 
@@ -99,7 +137,7 @@ h2{
 
 
 /*----- Clearfix: Force an Element not to collapse -----*/
-.clearfix:after { 
+.clearfix:after {
     content: "";
     display: table;
     clear: both;
