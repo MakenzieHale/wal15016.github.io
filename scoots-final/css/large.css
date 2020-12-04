@@ -26,6 +26,11 @@
 }
 .vespa{
     float: left;
+    max-width:20%;
+}
+.intro{
+    padding:30px;
+    margin:0 auto;
 }
 .today{
     font-size:30px;
@@ -40,6 +45,12 @@ h2 {
 
 .weather-headline{
     font-size:1.5rem;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
