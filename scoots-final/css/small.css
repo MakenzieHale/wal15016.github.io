@@ -86,10 +86,30 @@ h2 {
     font-weight: bolder;
     border-bottom:4px solid #af7a6d;
 }
+
+.currentWeather{
+    border: 3px solid #0b5351;
+    text-align: center;
+    background-color:#af7a6d;
+    color:white;
+
+}
+.today{
+    color:white;
+}
 p{
     line-height: 2.5em;
     text-align: center;
     font-family: 'Playfair Display', serif;
+}
+.intro{
+    margin:30px;
+}
+.vespa{
+    display: block;
+    margin:0 auto;
+    max-width:70%;
+    padding:25px 25px;
 }
 .call-to-action{
     width: 300px;

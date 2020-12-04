@@ -24,6 +24,12 @@
     max-width: 100%;
 
 }
+.vespa{
+    float: left;
+}
+.today{
+    font-size:30px;
+}
 
 h2 {
     font-size: 60px;
