@@ -16,7 +16,7 @@ const requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
 fetch(apiURL)
    .then((response) => response.json())
    .then((jsObject) => {
-      //console.log(jsObject);
+      console.log(jsObject);
 
       //temp = Math.floor(jsObject.main.temp * (9/5) - 459.67);
       //max_temp = Math.floor(jsObject.main.temp_max *(9/5)-459.67);

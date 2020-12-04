@@ -24,17 +24,22 @@ fetch(apiURL)
    weekDay[6] = "Saturday";
 
 
-   for (i = 0; i < jsObject.list.length[8]; i++) {
+   for (i = 0; i < jsObject.daily.length; i++) {
        //var myTime = jsObject.list[i].dt_txt.substring(i);
-       let date = new Date(jsObject.list[i].dt * 1000)
+       let date = new Date(jsObject.daily[i].dt * 1000)
        let weather = weekDay[date.getDay()];
 
        if ( x <= 3){
            document.getElementById('weather' + x).textContent = weather;
 
-           document.getElementById('forecast' + x).textContent = Math.ceil(jsObject.list[i].daily.temp) + '°F';
+           document.getElementById('forecast' + x).textContent = Math.ceil(jsObject.daily[i].temp.day) + '°F';
+           
+           document.getElementById('desc' + x).textContent = jsObject.daily[i].weather[0].main;
+          
+
+           x++
 
        }
    }
-})
+});
 

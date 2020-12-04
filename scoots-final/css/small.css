@@ -91,11 +91,11 @@ h2 {
     border: 3px solid #0b5351;
     text-align: center;
     background-color:#af7a6d;
-    color:white;
+    color:#191516;
 
 }
 .today{
-    color:white;
+    color:#191516;
 }
 p{
     line-height: 2.5em;
@@ -115,10 +115,10 @@ p{
     width: 300px;
     height: 160px;
     border-radius: 50%;
-    border:6px solid #0b5351;
+    border:6px solid #af7a6d;
     text-align: center;
     margin:0 auto;
-    background-color: #af7a6d;
+    background-color: #0b5351;
    
 }
 .action{
@@ -139,7 +139,48 @@ p{
 .weather-headline{
     text-align: center;
     font-size:.8rem;
+    background-color: #af7a6d;
+    padding:10px;
+    color:#191516;
 }
+
+
+.column {
+    border-right: 1px solid black;
+}
+
+.weatherCol {
+    column-count: 3;
+    column-gap: 0;
+
+}
+
+.col-head {
+    display: block;
+    padding: 5px;
+    border-bottom: 1px solid #333;
+    text-align: center;
+    background-color:#0b5351;
+    color:white;
+    font-size: 1.5rem;
+}
+
+.data {
+    display: block;
+    padding: 0 5px 5px;
+    text-align: center;
+    font-size: 1.5rem;
+
+
+}
+.desc{
+    text-align: center;
+    font-size: 25px;
+    padding: 0 5px 5px;
+    
+}
+
+
 .contact{
     text-align: center;
 }
