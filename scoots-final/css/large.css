@@ -64,6 +64,8 @@ h2 {
 
 /*tours*/
 
+
+
 .puntaSur,.sunset,.lighthouse,.snorkeling{
     display:flex;
     margin:20px;
@@ -80,6 +82,7 @@ h2 {
 }
 .first,.second,.third,.four{
     margin:0 auto;
+}
 
 
 }
