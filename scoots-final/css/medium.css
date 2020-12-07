@@ -57,4 +57,11 @@ font-style: italic;
 .desc{
     margin-left:85px;
 }
+
+/*tours*/
+.first,.second,.third,.four{
+padding:70px;
+margin:35px;
+   
+}
 }

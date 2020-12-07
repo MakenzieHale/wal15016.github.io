@@ -62,8 +62,24 @@ h2 {
     margin-left:140px;
 }
 
+/*tours*/
 
+.puntaSur,.sunset,.lighthouse,.snorkeling{
+    display:flex;
+    margin:20px;
+    padding:10px;
+}
 
+.sunset,.lighthouse{
+    flex-direction: row-reverse;
+    
+}
+
+.sun,.beach,.house{
+    margin:25px;
+}
+.first,.second,.third,.four{
+    margin:0 auto;
 
 
 }
