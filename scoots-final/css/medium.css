@@ -59,9 +59,12 @@ font-style: italic;
 }
 
 /*tours*/
-.first,.second,.third,.four{
+.first,.second,.third,.four,.jeepTour{
 padding:70px;
 margin:35px;
    
+}
+.howTo,.call{
+    text-align: center;
 }
 }

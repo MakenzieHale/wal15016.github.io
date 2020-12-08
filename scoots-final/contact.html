@@ -52,11 +52,11 @@
             </div>
             </section>
             <section class="call">
-                <img src="">
-            <div>
+                <img class="jeepTour" src="images/jeeptour.jpg">
+            <div class="callUs">
                 <h3>Questions regarding your rental?</h3>
-                <p>Please feel free to contact us by phone:52 (987)-123456<br>
-                    Or send us an email at  customer-support@scootsmotor.com<br>
+                <p>Please feel free to contact us by phone:<br>52 (987)-123456<br>
+                    Or send us an email at:<br>  customer-support@scootsmotor.com<br>
                     One of our representatives will get back to you regarding your query within 24 hours!
                  </p>
             </div>
@@ -65,10 +65,71 @@
        
             <div>
                 <h3>Leave us a review!</h3>
+                <form method="get" action="thanks.html">
+                    <fieldset>
+                        <legend>Your Information</legend>
+                        <label class="top"> First Name: <input type="text" name="fname" required></label>
+                        <label class="top">Last Name:<input type="text" name="lname" required autofocus pattern="[A-Za-z]{1-8,}"></label>
+        
+                        <label class="top">Phone*<input type="tel" name="phone" placeholder="1235551234"></label>
+                        <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com"></label>
+                       
+        
+        
+                    </fieldset>
+        
+                    <fieldset>
+                        <legend>When did you rent with us?</legend>
+                        <label class="top">Date of rental<input type="date" name="stormDate"></label>
+                        <label class="top" for="rental">Type of rental
+                            <input list="rental-type" id="rental" name="rentaltype" /></label>
+                        <datalist id="rental-type">
+                            <option value="Honda Metro Scooter">
+                            <option value="Honda Dio Scooter">
+                            <option value="Honda PCX150 Scooter">
+                            <option value="Honda Pioneer ATV">
+                            <option value="4 Door Jeep Wranger with a/c">
+                            <option value="2 Door Jeep Wrangler">
+            
+                        </datalist>
+                        <label class="top" for="rating">How would you rate your experience?</label>
+                        <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
+                            oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                        <span id="ratingvalue">5</span>
+        
+        
+                        <datalist id="tickmarks">
+                            <option value="0">
+                            <option value="1">
+                            <option value="2">
+                            <option value="3">
+                            <option value="4">
+                            <option value="5">
+                            <option value="6">
+                            <option value="7">
+                            <option value="8">
+                            <option value="9">
+                            <option value="10">
+        
+                        </datalist>
+        
+        
+    
+                        <label class="top" for="comments">Additional Comments</label>
+                        <textarea id="comments" name="comments" rows="5" cols="33"></textarea>
+        
+        
+                    </fieldset>
+                    <input type="submit" value="Submit Review" class="submitButn">
+                </form>
             </div>
             </section>
     </main>
+    <footer>
+        &nbsp;&copy;
+    </footer>
     <script src="js/menu.js"></script>
+    <script src="js/adjust.js"></script>
 </body>
 
 </html>

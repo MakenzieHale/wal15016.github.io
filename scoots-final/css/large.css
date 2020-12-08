@@ -66,10 +66,11 @@ h2 {
 
 
 
-.puntaSur,.sunset,.lighthouse,.snorkeling{
+.puntaSur,.sunset,.lighthouse,.snorkeling,.call{
     display:flex;
     margin:20px;
     padding:10px;
+    text-align: center;
 }
 
 .sunset,.lighthouse{
@@ -80,9 +81,20 @@ h2 {
 .sun,.beach,.house{
     margin:25px;
 }
-.first,.second,.third,.four{
+.first,.second,.third,.four,.jeepTour{
     margin:0 auto;
 }
-
+/*contact*/
+.howTo,.call,.review{
+    margin:50px;
+}
+.call{
+    border:3px solid #af7a6d;
+   
+}
+.callUs{
+    margin-top:50px;
+    padding:5px;
+}
 
 }
