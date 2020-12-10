@@ -76,6 +76,7 @@
                         <li class="reserve-list">
                             <label for="country">Where are you from?</label>
                             <select id="country" name="country" class="form-control">
+                                <option value=""> Please Select</option>
                                 <option value="Afghanistan">Afghanistan</option>
                                 <option value="Åland Islands">Åland Islands</option>
                                 <option value="Albania">Albania</option>
@@ -369,9 +370,14 @@
         </div>
     </main>
     <footer>
-        &nbsp;&copy;
+        &nbsp;&copy;<span id="year"></span>  <span id="lastModified"></span>  <span>Weather Provided by openweathermap.org</span>  <span><a href="sources.html">Sources</a></span>
     </footer>
+    <script src="js/date.js"></script>
     <script src="js/menu.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfont.js"></script>
+</body>
 </body>
 
 </html>

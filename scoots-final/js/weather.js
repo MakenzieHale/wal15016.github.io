@@ -33,8 +33,13 @@ fetch(apiURL)
            document.getElementById('weather' + x).textContent = weather;
 
            document.getElementById('forecast' + x).textContent = Math.ceil(jsObject.daily[i].temp.day) + '°F';
+
+           const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.daily[i].weather[0].icon + '.png';
+           const desc = jsObject.daily[i].weather[0].description;
+           document.getElementById('icon' + x).setAttribute('src', imagesrc);
+           document.getElementById('icon' + x).setAttribute('alt', desc);
            
-           document.getElementById('desc' + x).textContent = jsObject.daily[i].weather[0].main;
+           //document.getElementById('desc' + x).textContent = jsObject.daily[i].weather[0].main;
           
 
            x++

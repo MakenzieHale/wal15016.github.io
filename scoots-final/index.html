@@ -92,19 +92,19 @@
                 <div class="column">
                     <span class="col-head" id="weather1"></span>
                     <span class="data" id="forecast1"></span>
-                    <span class="desc" id="desc1"></span>
+                    <img class="desc" id="icon1">
 
                 </div>
                 <div class="column">
                     <span class="col-head" id="weather2"></span>
                     <span class="data" id="forecast2"></span>
-                    <span class="desc" id="desc2"></span>
+                    <img class="desc" id="icon2">
 
                 </div>
                 <div class="column">
                     <span class="col-head" id="weather3"></span>
                     <span class="data" id="forecast3"></span>
-                    <span class="desc" id="desc3"></span>
+                    <img class="desc" id="icon3">
         </section>
         <section class="contact">
             <div>
@@ -124,8 +124,9 @@
 
     </main>
     <footer>
-        <p>Weather Provided by openweathermap.org</p>
+        &nbsp;&copy;<span id="year"></span>  <span id="lastModified"></span>  <span>Weather Provided by openweathermap.org</span>  <span><a href="sources.html">Sources</a></span>
     </footer>
+    <script src="js/date.js"></script>
     <script src="js/menu.js"></script>
     <script src="js/weather.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>

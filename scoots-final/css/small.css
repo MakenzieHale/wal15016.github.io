@@ -174,9 +174,8 @@ p{
 
 }
 .desc{
-    text-align: center;
-    font-size: 25px;
-    padding: 0 5px 5px;
+    width:50%;
+    margin-left: 30px;
     
 }
 
@@ -303,6 +302,15 @@ form label.top input:required:valid {
 }
 .terms{
     text-align: center;
+}
+span{
+    color:white;
+    font-size:15px;
+}
+
+a{
+    text-decoration: none;
+    color:white;
 }
 
 
