@@ -272,6 +272,38 @@ form label.top input:required:valid {
     border-left: green solid 6px;
 }
 
+/*reservations*/
+.container{
+    width:70%;
+    max-width: 960px;
+    margin:0 auto;
+    justify-items: center;
+}
+
+
+.flexForm, .reserve-list{
+    list-style-type:none;
+    padding:10px;
+    display:flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+  
+   
+
+}
+.flexForm{
+    max-width: 800px;
+    margin:0 auto;
+    align-items: center;
+}
+.jeepReserve{
+    padding:20px;
+    margin:0 auto;
+}
+.terms{
+    text-align: center;
+}
 
 
 
