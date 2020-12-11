@@ -2,13 +2,13 @@
     "rentals": [
         {
             "type": "~Honda Metro Scooter",
-            "Reservation":{ 
-            "Half Day":20,
-            "Full day":30
+            "reservation":{ 
+            "half-day":20,
+            "full-day":30
             },
-            "Walk-in": {
-             "Half Day":25,
-             "Full Day":35
+            "walk-in": {
+             "half-day":25,
+             "full-day":35
             }
 
         },
