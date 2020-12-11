@@ -1,7 +1,7 @@
 {
     "rentals": [
         {
-            "rental type": "~Honda Metro Scooter",
+            "type": "~Honda Metro Scooter",
             "Reservation":{ 
             "Half Day":20,
             "Full day":30
@@ -13,59 +13,59 @@
 
         },
         {
-          "rental type": "~Honda Dio Scooter",
-          "Reservation": {
-              "Half Day":30,
-              "Full day":40
+          "type": "~Honda Dio Scooter",
+          "reservation": {
+              "half-day":30,
+              "full-day":40
           },
-          "Walk-in":{
-              "Half Day":35,
-              "Full Day": 45
+          "walk-in":{
+              "half-day":35,
+              "full-day": 45
 
           }
         },
         {
-            "rental type": "~Honday PCX150 Scooter",
-            "Reservation":{
-                "Half Day":40,
-                "Full day":50
+            "type": "~Honday PCX150 Scooter",
+            "reservation":{
+                "half-day":40,
+                "full-day":50
             },
-            "Walk-in":{
-                "Half Day":45,
-                "Full Day":55
+            "walk-in":{
+                "half-day":45,
+                "full-day":55
             }
         },
         {
-            "rental type":"Honda Pioneer ATV",
-            "Reservation":{
-                "Half Day":50,
-                "Full day":70
+            "type":"Honda Pioneer ATV",
+            "reservation":{
+                "half-day":50,
+                "full-day":70
             },
-            "Walk-in":{
-                "Half Day":60,
-                "Full Day":80
+            "walk-in":{
+                "half-day":60,
+                "full-day":80
             }
         },
         {
-            "rental type":"Jeep Wrangler - 4 door with a/c",
-            "Reservation":{
-                "Half Day":70,
-                "Full day":100
+            "type":"Jeep Wrangler - 4 door with a/c",
+            "reservation":{
+                "half-day":70,
+                "full-day":100
             },
-            "Walk-in":{
-                "Half Day":85,
-                "Full Day":125
+            "walk-in":{
+                "half-day":85,
+                "full-day":125
             }
         }, 
         {
-            "rental type":"Jeep Wrangler-2 door",
-            "Reservation":{
-                "Half Day":60,
-                "Full day":85
+            "type":"Jeep Wrangler-2 door",
+            "reservation":{
+                "half-day":60,
+                "full-day":85
             },
-            "Walk-in":{
-                "Half Day":70,
-                "Full Day":90
+            "walk-in":{
+                "half-day":70,
+                "full-day":90
             }
         }
        
