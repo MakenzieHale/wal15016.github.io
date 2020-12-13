@@ -7,13 +7,22 @@ fetch(requestURL)
 .then(function(jsonObject) {
     console.table(jsonObject);
 
+    const rentals = jsonObject['rentals'];
 
-for (let i = 0; i< jsonObject.rentals.length; i++){
     var x=1;
-    if(rentals[i].type == "~Honda Metro Scooter" || rentals[i].type == "~Honda Dio Scooter" || rentals[i].type == "~Honda PCX150 Scooter" || rentals[i].type == "Honda Pioneer ATV" || rentals[i].type == "Jeep Wrangler-4 door with a/c" || rentals[i].type == "Jeep Wrangler-2 door"){
+
+for (let i = 0; i < rentals.length; i++){
+ 
+
+        if (x <= 6){
+            document.getElementById('type' + x).textContent = rentals[i].type;
+            document.getElementById('rHalf' + x).textContent = rentals[i].reservations.half;
+
+            x++
+
+        }
        
-   document.getElementById('type' +x).textContent = jsonObject.rentals[i].type;
+ 
 
     };
-};
 });
