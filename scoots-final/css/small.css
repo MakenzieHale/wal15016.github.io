@@ -92,6 +92,7 @@ h2 {
     text-align: center;
     background-color:#af7a6d;
     color:#191516;
+ 
 
 }
 .today{
@@ -162,7 +163,7 @@ p{
     text-align: center;
     background-color:#0b5351;
     color:white;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .data {
@@ -321,6 +322,7 @@ a:hover {
 iframe{
     border:0;
     max-width: 100%;
+    padding:20px;
 }
 p{
     text-align: center;
@@ -333,9 +335,10 @@ p{
 }
 .rentalpics{
     padding:30px;
+    max-width: 80%;
 }
 .jeepReserve{
-    max-width: 100%;
+    max-width: 80%;
     margin: 0 auto;
 }
 
