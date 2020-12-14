@@ -19,12 +19,12 @@
 <body>
     <header>
         <picture class="logo">
-            <img src="images/Scoots Motor Co..png" alt="scoots logo" width="300px" height="">
+            <img src="images/Scoots Motor Co.png" alt="scoots logo" width="300px">
         </picture>
         <section class="motto">
             <h1 class="explore">It's time to explore in style</h1>
         </section>
-        <button onclick="toggleMenu();">&#9776;</button>
+        <button onclick="toggleMenu();"> &#9776; </button>
     </header>
 
     <nav class="clearfix">
@@ -40,18 +40,23 @@
     </nav>
     <main>
         <section class="terms">
-        <h2>ready to book your rental?</h2>
-        <picture>
-            <img class="jeepReserve" src="images/jeepreserve.jpg">
-        </picture>
-        <p>All rentals must be booked at least 2 weeks prior to date of rental pickup. Any and all cancellations must be
-            wihtin 24 hours of pickup date in order to recieve full refund. At the time of booking, renters must provide
-            a down-payment of half of the total rental fee-the downpayment is non-refundable. While we do not require that you purchase our insurance, we do require that all of renters bring proof of insurance upon rental pickup.  All Drivers must be above the age of 25, if driver is under the age of 25, a $40 age fee will be charged to the account. Rentals may be returned to either of our locations.</p>
-            </section>
+            <h2>ready to book your rental?</h2>
+            <picture>
+                <img class="jeepReserve" src="images/jeepreserve.jpg" alt="jeep">
+            </picture>
+            <p>All rentals must be booked at least 2 weeks prior to date of rental pickup. Any and all cancellations
+                must be
+                wihtin 24 hours of pickup date in order to recieve full refund. At the time of booking, renters must
+                provide
+                a down-payment of half of the total rental fee-the downpayment is non-refundable. While we do not
+                require that you purchase our insurance, we do require that all of renters bring proof of insurance upon
+                rental pickup. All Drivers must be above the age of 25, if driver is under the age of 25, a $40 age fee
+                will be charged to the account. Rentals may be returned to either of our locations.</p>
+        </section>
         <div class="container">
             <form method="GET" action="confirmation.html">
                 <fieldset>
-                    <legend>Tell us about yourself!</legend>
+                    <h3>tell us about yourself!</h3>
                     <ul class="flexForm">
                         <li class="reserve-list">
                             <label>First Name:<input type="text" name="fname" required></label>
@@ -332,34 +337,38 @@
                             </select>
                         </li>
                         <li class="reserve-list">
-                            <label for="cruise">Cruise line (if applicable)<input type="text" name="cruise"></label>
+                            <label for="cruise" id="cruise">Cruise line (if applicable)<input id="cruise" type="text"
+                                    name="cruise"></label>
+                        </li>
+                    </ul>
+                </fieldset>
+
+
+                <fieldset>
+                    <h3>Almost Done- Tell us about your rental!</h3>
+                    <ul class="flexForm">
+                        <li class="reserve-list">
+                            <label>Date of rental-From:<input type="date" name="rentalDate"></label>
+                        </li>
+                        <li class="reserve-list">
+                            <label>To:<input type="date" name="returnDate"></label>
+                        </li>
+                        <li class="reserve-list">
+                            <label for="rental">Type of rental
+                                <input list="rental-type" id="rental" name="rentaltype" /></label>
+                            <datalist id="rental-type">
+                                <option value="Honda Metro Scooter">
+                                <option value="Honda Dio Scooter">
+                                <option value="Honda PCX150 Scooter">
+                                <option value="Honda Pioneer ATV">
+                                <option value="4 Door Jeep Wranger with a/c">
+                                <option value="2 Door Jeep Wrangler">
+
+                            </datalist>
                         </li>
 
-                </fieldset>
-                <fieldset>
-                    <legend>Almost Done- Tell us about your rental!</legend>
-                    <li class="reserve-list">
-                        <label>Date of rental-From:<input type="date" name="rentalDate"></label>
-                    </li>
-                    <li class="reserve-list">
-                        <label>To:<input type="date" name="returnDate"></label>
-                    </li>
-                    <li class="reserve-list">
-                        <label for="rental">Type of rental
-                            <input list="rental-type" id="rental" name="rentaltype" /></label>
-                        <datalist id="rental-type">
-                            <option value="Honda Metro Scooter">
-                            <option value="Honda Dio Scooter">
-                            <option value="Honda PCX150 Scooter">
-                            <option value="Honda Pioneer ATV">
-                            <option value="4 Door Jeep Wranger with a/c">
-                            <option value="2 Door Jeep Wrangler">
-
-                        </datalist>
-                    </li>
-
-                    <label class="top" for="comments">Any additional comments or special accomadations?</label>
-                    <textarea id="comments" name="comments" rows="5" cols="33"></textarea>
+                        <label class="top" for="comments">Any additional comments or special accomadations?</label>
+                        <textarea id="comments" name="comments" rows="5" cols="33"></textarea>
 
 
                     </ul>
@@ -370,14 +379,14 @@
         </div>
     </main>
     <footer>
-        &nbsp;&copy;<span id="year"></span>  <span id="lastModified"></span>  <span>Weather Provided by openweathermap.org</span>  <span><a href="sources.html">Sources</a></span>
+        &nbsp;&copy;<span id="year"></span> <span id="lastModified"></span> <span><a
+                href="sources.html">Sources</a></span>
     </footer>
     <script src="js/date.js"></script>
     <script src="js/menu.js"></script>
-    <script src="js/weather.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/webfont.js"></script>
 </body>
-</body>
+
 
 </html>
