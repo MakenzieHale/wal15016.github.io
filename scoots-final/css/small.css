@@ -304,13 +304,16 @@ form label.top input:required:valid {
     text-align: center;
 }
 span{
-    color:white;
+    color:black;
     font-size:15px;
 }
 
 a{
     text-decoration: none;
-    color:white;
+    color:black;
+}
+a:hover {
+    color:red;
 }
 
 

@@ -16,7 +16,12 @@ for (let i = 0; i < rentals.length; i++){
 
         if (x <= 6){
             document.getElementById('type' + x).textContent = rentals[i].type;
-            document.getElementById('rHalf' + x).textContent = rentals[i].reservations.half;
+        
+            document.getElementById('rHalf' + x).textContent = '$' + rentals[i].reservation.half;
+            document.getElementById('rFull' + x).textContent = '$' + rentals[i].reservation.full;
+
+            document.getElementById('wHalf' + x).textContent = '$' + rentals[i].walkins.half;
+            document.getElementById('wFull' + x).textContent = '$' + rentals[i].walkins.full;
 
             x++
 
