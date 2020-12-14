@@ -291,6 +291,9 @@ form label.top input:required:valid {
    
 
 }
+fieldset{
+    margin:0 auto;
+}
 .flexForm{
     max-width: 800px;
     margin:0 auto;
@@ -314,6 +317,26 @@ a{
 }
 a:hover {
     color:red;
+}
+iframe{
+    border:0;
+    max-width: 100%;
+}
+p{
+    text-align: center;
+}
+
+.scooterA,.scooterB,.scooterC,.scooterD,.scooterE,.scooterF{
+    display: block;
+    text-align: center;
+    font-size: 18px;
+}
+.rentalpics{
+    padding:30px;
+}
+.jeepReserve{
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 
