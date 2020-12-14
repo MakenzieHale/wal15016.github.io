@@ -38,7 +38,13 @@ header {
 
 
 }
+.small-view{
+    margin-left:85px;
+}
 
+.vespa{
+    max-width: 20%;
+}
 
 
 .motto {
